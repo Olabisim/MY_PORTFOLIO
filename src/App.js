@@ -1,10 +1,13 @@
 import React from 'react'
-
+import Home from './screens/Home';
 
 
 const App = () => {
         return (
-                <div>app js</div>
+                <div>
+                        <Home />
+                
+                </div>
         )
 }
 
