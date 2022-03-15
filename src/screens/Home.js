@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
-import mainHome from '../components/mainHome';
+import { MainHome } from '../components/MainHome';
 
 
 const Home = () => {
@@ -9,8 +9,8 @@ const Home = () => {
                 <div>
                         <Header />
                         <Navigation />
-                        <mainHome />
-                        sdad
+                        <MainHome />
+                        
                 </div>
         )
 }

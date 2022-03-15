@@ -1,53 +1,52 @@
 import React from "react";
 
-const mainHome = () => {
+export const MainHome = () => {
         return (
                 
-                <main>
+                
+        <main>
+                <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                        Passionate Software DEVELOPER
+                </h2>
+                </div>
 
-                        <section class="section-about">
-                        <div class="u-center-text u-margin-bottom-big">
-                        <h2 class="heading-secondary">
-                                Passionate Software DEVELOPER
-                        </h2>
+                <div class="row">
+                <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                        <p class="paragraph">I am a driven software engineer with a passion for programming and solving difficult problems.
+
+                        Technology is something with which I've always felt a deep connection. I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
+                        </p>
+                        
+                        
+                        <h3 class="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
+                        <p class="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
+
+                        <a href="#section-tours" class="btn-text">Learn more &rarr;</a>
+                </div>
+                <div class="col-1-of-2">
+                        <div class="composition">
+
+                        <img srcset="./img/nat-1.jpg 300w, ./img/nat-1-large.jpg 1000w"
+                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_1"
+                        class="composition__photo composition__photo--p1" src="./img/nat-1-large.jpg" />
+
+                        <img srcset="./img/nat-2.jpg 300w, ./img/nat-2-large.jpg 1000w"
+                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_2"
+                        class="composition__photo composition__photo--p2" src="./img/nat-2-large.jpg" />
+
+                        <img srcset="./img/nat-3.jpg 300w, ./img/nat-3-large.jpg 1000w"
+                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_3"
+                        class="composition__photo composition__photo--p3" src="./img/nat-3-large.jpg" />
                         </div>
-
-                        <div class="row">
-                        <div class="col-1-of-2">
-                                <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
-                                <p class="paragraph">I am a driven software engineer with a passion for programming and solving difficult problems.
-
-                                Technology is something with which I've always felt a deep connection. I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
-                                </p>
-                                
-                                
-                                <h3 class="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
-                                <p class="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
-
-                                <a href="#section-tours" class="btn-text">Learn more &rarr;</a>
-                        </div>
-                        <div class="col-1-of-2">
-                                <div class="composition">
-
-                                        <img srcset="./img/nat-1.jpg 300w, ./img/nat-1-large.jpg 1000w"
-                                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="nat-1"
-                                        class="composition__photo composition__photo--p1" src="./img/nat-1-large.jpg" />
-
-                                        <img srcset="./img/nat-2.jpg 300w, ./img/nat-2-large.jpg 1000w"
-                                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="nat-2"
-                                        class="composition__photo composition__photo--p2" src="./img/nat-2-large.jpg" />
-
-                                        <img srcset="./img/nat-3.jpg 300w, ./img/nat-3-large.jpg 1000w"
-                                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="nat-3"
-                                        class="composition__photo composition__photo--p3" src="./img/nat-3-large.jpg" />
-                                </div>
-                        </div>
-                        </div>
-                        </section>
+                </div>
+                </div>
+                </section>
                 <section class="section-features">
 
                 <div class="row">
-                {/*
                 <div class="col-1-of-4">
                         <div class="feature-box">
                         <span class="feature-box__icon lnr lnr-earth u-margin-bottom-small">
@@ -96,7 +95,6 @@ const mainHome = () => {
                         </p>
                         </div>
                 </div>
-                */}
                 </div>
                 </section>
 
@@ -210,7 +208,7 @@ const mainHome = () => {
                 </div>
 
                 <div class="u-center-text u-margin-top-huge">
-                <a href="#h" class="btn btn--green">All other works</a>
+                <a href="#btn" class="btn btn--green">All other works</a>
                 </div>
                 </section>
 
@@ -262,7 +260,7 @@ const mainHome = () => {
                 </div>
 
                 <div class="u-center-text u-margin-top-huge">
-                <a href="#n" class="btn-text">Read all stories &rarr;</a>
+                <a href="#btn-te" class="btn-text">Read all stories &rarr;</a>
                 </div>
                 </section>
 
@@ -311,8 +309,7 @@ const mainHome = () => {
                 </div>
                 </div>
                 </section>
-                </main>
+        </main>
+
         )
 }
-
-export default mainHome;

@@ -122,3 +122,44 @@
         box-shadow:0 0.5rem 1rem rgba(0,0,0,0.15);
         transform:translateY(0)
     }
+
+
+    
+    body .heading-primary{
+        color:#fff;
+        text-transform:uppercase;
+        -webkit-backface-visibility:hidden;
+        backface-visibility:hidden;
+        margin-bottom:6rem
+    }
+    body .heading-primary--main{
+        display:block;
+        font-size:6rem;
+        font-weight:400;
+        letter-spacing:3.5rem;
+        -webkit-animation-name:moveInLeft;
+        animation-name:moveInLeft;
+        -webkit-animation-duration:2s;
+        animation-duration:2s
+    }
+    @media only screen and (max-width: 37.5em){
+        body .heading-primary--main{
+            letter-spacing:1rem;
+            font-family:5rem
+        }
+    }
+    body .heading-primary--sub{
+        display:block;
+        font-size:2rem;
+        font-weight:700;
+        letter-spacing:1.75rem;
+        -webkit-animation-name:moveInRight;
+        animation-name:moveInRight;
+        -webkit-animation-duration:2.5s;
+        animation-duration:2.5s
+    }
+    @media only screen and (max-width: 37.5em){
+        body .heading-primary--sub{
+            letter-spacing:.5rem
+        }
+    }
