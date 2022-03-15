@@ -14,8 +14,8 @@ const Navigation = () => {
                 
                         <nav className="navigation__nav">
                                 <ul className="navigation__list">
-                                        <li className="navigation__item"><a href="#GITHUB" className="navigation__link"><span>01</span>GITHUB</a></li>
-                                        <li className="navigation__item"><a href="#LINKEDLN" className="navigation__link"><span>02</span>LINKEDLN</a></li>
+                                        <li className="navigation__item"><a href="https://github.com/Olabisim" target="_blank" rel="noreferrer" className="navigation__link"><span>01</span>GITHUB</a></li>
+                                        <li className="navigation__item"><a href="#LINKEDLN" target="_blank" rel="noreferrer" className="navigation__link"><span>02</span>LINKEDLN</a></li>
                                         <li className="navigation__item"><a href="#STACK_OVERFLOW" className="navigation__link"><span>03</span>STACK OVERFLOW</a></li>
                                 </ul>
                         </nav>
