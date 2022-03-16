@@ -298,7 +298,7 @@ export const MainHome = () => {
                                 <input type="radio" className="form__radio-input" id="small" name="size" />
                                 <label for="small" className="form__radio-label">
                                 <span className="form__radio-button"></span>
-                                Small tour group
+                                Single project
                                 </label>
                         </div>
 
@@ -306,7 +306,7 @@ export const MainHome = () => {
                                 <input type="radio" className="form__radio-input" id="large" name="size" />
                                 <label for="large" className="form__radio-label">
                                 <span className="form__radio-button"></span>
-                                Large tour group
+                                Join a team
                                 </label>
                         </div>
                         </div>
