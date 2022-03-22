@@ -1,5 +1,6 @@
 import React from "react";
-import '../styles/main.css'
+import { Link } from 'react-router-dom'
+import '../styles/main.css';
 
 
 export const MainHome = () => {
@@ -22,11 +23,15 @@ export const MainHome = () => {
                         Technology is something with which I've always felt a deep connection. I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
                         </p>
                         
-                        
+                
                         <h3 className="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
                         <p className="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
 
-                        <a href="#section-tours" className="btn-text">check certifications &rarr;</a>
+                        <a href="#section-tours" className="btn-text">
+                        
+                                check certifications &rarr;
+                        
+                        </a>
                 </div>
                 <div className="col-1-of-2">
                         <div className="composition">
