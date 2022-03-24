@@ -86,7 +86,7 @@ export const MainHome = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">react</h3>
                         <p className="feature-box__text">
-                        I have two years plus experience with react and react-native. I also gained vast familiarity with redux-toolkit
+                        I have two years plus experience with react and react-native. I also gained vast familiarity with redux-toolkit and develop desktop applications with react-native.
                         </p>
                         </div>
                 </div>
