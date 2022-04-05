@@ -27,7 +27,7 @@ export const MainHome = () => {
                         <h3 className="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
                         <p className="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
 
-                        <a href="#section-tours" className="btn-text">
+                        <a href="/certify" className="btn-text">
                         
                                 check certifications &rarr;
                         
