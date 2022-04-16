@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../styles/main.css';
 
 
-export default const Main = () => {
+const Main = () => {
         return (
                 
                 
@@ -364,3 +364,6 @@ export default const Main = () => {
 
         )
 }
+
+
+export default Main;
