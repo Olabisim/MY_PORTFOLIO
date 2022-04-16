@@ -11,6 +11,7 @@ const Home = () => {
                 <div>
                         <Header />
                         <Navigation />
+                        <MainHome />
                         <Footer />
                 </div>
         )
