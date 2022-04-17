@@ -44,7 +44,7 @@
   top: -90px;
   left: 0;
   background: #000;
-  background: linear-gradient(-45deg, rgb(165, 0, 0), rgb(165, 0, 0));
+  background: linear-gradient(-45deg, #121330, #121330);
   position: absolute;
   transition: 0.5s;
 }

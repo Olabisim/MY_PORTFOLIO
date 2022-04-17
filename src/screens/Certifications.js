@@ -14,16 +14,20 @@ const Certifications = () => {
                         </h2>
                         <div className='certify_main'>
                                 <div className="certify_card">
+                                <img src="../../cert2.PNG" alt="second_cert" />
                                         <div className="certify_text">
                                         <h1>DEVELOPER</h1>
                                         </div>
                                 </div>
                                 <div className="certify_card">
+
+                                <img src="../../cert1.PNG" alt="first_cert" />
                                         <div className="certify_text">
                                                 <h1>DEVELOPER</h1>
                                         </div>
                                 </div>
                                 <div className="certify_card">
+                                <img src="../../cert3.PNG" alt="third_cert" />
                                         <div className="certify_text">
                                                 <h1>DEVELOPER</h1>
                                         </div>

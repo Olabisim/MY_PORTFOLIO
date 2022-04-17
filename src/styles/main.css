@@ -307,7 +307,7 @@
     .lnr-undo:before{
         content:"\e860"
     }
-    .lnr-rgb(165, 0, 0)o:before{
+    .lnr-#121330o:before{
         content:"\e861"
     }
     .lnr-sync:before{
@@ -625,11 +625,11 @@
         }
     }
     ::-moz-selection{
-        background-color:rgb(165, 0, 0);
+        background-color:#121330;
         color:#fff
     }
     ::selection{
-        background-color:rgb(165, 0, 0);
+        background-color:#121330;
         color:#fff
     }
     body{
@@ -681,7 +681,7 @@
         text-transform:uppercase;
         font-weight:700;
         display:inline-block;
-        background-image:linear-gradient(to right, rgb(165, 0, 0), #000);
+        background-image:linear-gradient(to right, #121330, #000);
         -webkit-background-clip:text;
         color:transparent;
         letter-spacing:.2rem;
@@ -792,11 +792,11 @@
         background-color:#fff
     }
     .btn--green{
-        background-color:rgb(165, 0, 0);
+        background-color:#121330;
         color:#fff
     }
     .btn--green::after{
-        background-color:rgb(165, 0, 0)
+        background-color:#121330
     }
     .btn::after{
         content:"";
@@ -818,15 +818,15 @@
     }
     .btn-text:link,.btn-text:visited{
         font-size:1.6rem;
-        color:rgb(165, 0, 0);
+        color:#121330;
         display:inline-block;
         text-decoration:none;
         padding:1.2rem 2rem;
-        border-bottom:0.1rem solid rgb(165, 0, 0);
+        border-bottom:0.1rem solid #121330;
         transition:all 0.2s
     }
     .btn-text:hover{
-        background-color:rgb(165, 0, 0);
+        background-color:#121330;
         color:#fff;
         box-shadow:0 1rem 2rem rgba(0,0,0,0.15);
         transform:translateY(-2px)
@@ -840,7 +840,7 @@
     }
     .composition__photo{
         width:55%;
-        border:3px solid rgb(165, 0, 0);;
+        border:3px solid #121330;;
         box-shadow:0 1.5rem 4rem rgba(0,0,0,0.4);
         border-radius:4px;
         position:absolute;
@@ -888,7 +888,7 @@
         }
     }
     .composition__photo:hover{
-        outline:1rem solid rgb(165, 0, 0);
+        outline:1rem solid #121330;
         border:none;
         transform:scale(1.1) translateY(-0.5rem);
         box-shadow:0 2.5rem 4rem rgba(0,0,0,0.5);
@@ -912,7 +912,7 @@
         font-size:6rem;
         margin-bottom:2.5rem;
         display:inline-block;
-        background-image:linear-gradient(to right, #7ed56f, rgb(165, 0, 0););
+        background-image:linear-gradient(to right, #7ed56f, #121330;);
         -webkit-background-clip:text;
         color:transparent
     }
@@ -947,7 +947,7 @@
         background-image:linear-gradient(to right bottom, #ffb900, #ff7730)
     }
     .card__side--back-2{
-        background-image:linear-gradient(to right bottom, #7ed56f, rgb(165, 0, 0);)
+        background-image:linear-gradient(to right bottom, #7ed56f, #121330;)
     }
     .card__side--back-3{
         background-image:linear-gradient(to right bottom, #2998ff, #5643fa)
@@ -972,7 +972,7 @@
         background-blend-mode:color
     }
     .card__picture-2{
-        /* background-image:linear-gradient(to right bottom, #7ed56f, rgb(165, 0, 0);),url(../img/nat-6.jpg); */
+        /* background-image:linear-gradient(to right bottom, #7ed56f, #121330;),url(../img/nat-6.jpg); */
         background-blend-mode:color
     }
     .card__picture-3{
@@ -1212,7 +1212,7 @@
     .form__input:focus{
         outline:none;
         box-shadow:0 1rem 2rem rgba(255,255,255,0.1);
-        border-bottom:3px solid rgb(165, 0, 0)
+        border-bottom:3px solid #121330
     }
     .form__input:focus:invalid{
         border-bottom:3px solid #ff7730
@@ -1262,7 +1262,7 @@
     .form__radio-button{
         height:3rem;
         width:3rem;
-        border:5px solid rgb(165, 0, 0);
+        border:5px solid #121330;
         border-radius:50%;
         display:inline-block;
         position:absolute;
@@ -1280,7 +1280,7 @@
         top:50%;
         left:50%;
         transform:translate(-50%, -50%);
-        background-color:rgb(165, 0, 0);
+        background-color:#121330;
         opacity:0;
         transition:opacity .2s
     }
@@ -1392,7 +1392,7 @@
         line-height:1
     }
     .popup__close:hover{
-        color:rgb(165, 0, 0)
+        color:#121330
     }
     .row{
         max-width:114rem;
@@ -1477,7 +1477,7 @@
         position:fixed;
         top:6.5rem;
         right:6.5rem;
-        background-image: radial-gradient(closest-side, rgb(165, 0, 0), #000);
+        background-image: radial-gradient(closest-side, #121330, #000);
         z-index:100;
         transition:all 1s cubic-bezier(0.86, 0, 0.07, 1)
     }
@@ -1526,7 +1526,7 @@
     }
     .navigation__link:hover,.navigation__link:active{
         background-position:100%;
-        color:rgb(165, 0, 0);;
+        color:#121330;;
         transform:translateX(3rem)
     }
     .navigation__checkbox:checked ~ .navigation__background{
@@ -1578,7 +1578,7 @@
     .header{
         height:85vh;
         /* background-image:linear-gradient(to right bottom, rgba(28, 40, 52,0.0), rgba(28, 40, 52,0.0)),url(./img/hero-bg.png); */
-        background: rgb(165, 0, 0);
+        background: #121330;
         background-size:cover;
         background-position:top;
         position:relative;
@@ -1593,7 +1593,7 @@
     }
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (min-width: 125em){
         .header{
-            background: rgb(165, 0, 0);
+            background: #121330;
         }
     }
     @media only screen and (max-width: 75em){
@@ -1670,7 +1670,7 @@
         transition:all .2s
     }
     .footer__link:hover,.footer__link:active{
-        color:rgb(165, 0, 0);
+        color:#121330;
         box-shadow:0 1rem 2rem rgba(0,0,0,0.4);
         transform:rotate(5deg) scale(1.3)
     }
@@ -1700,7 +1700,7 @@
     .section-features{
         padding:20rem 0;
         /* background-image:linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,133,0.8)),url(../img/nat-4.jpg); */
-        background: rgb(165, 0, 0);
+        background: #121330;
         background-size:cover;
         transform:skewY(-7deg);
         margin-top:-10rem
@@ -1734,7 +1734,7 @@
     }
     .section-booking{
         padding:15rem 0;
-        background: rgb(165, 0, 0);
+        background: #121330;
     }
     @media only screen and (max-width: 56.25em){
         .section-booking{
