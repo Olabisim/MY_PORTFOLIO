@@ -899,14 +899,23 @@
         border:none
     }
     .feature-box{
-        background-color:#fff;
+        background-color: rgb(255,255,255,0.1);
+        color: #fff;
         font-size:1.5rem;
         padding:2.5rem;
         text-align:center;
         border-radius:3px;
         box-shadow:0 1.5rem 4rem rgba(0,0,0,0.15);
         transition:transform .3s;
-        color: black;
+    }
+    .feature-box p{
+        background-color: #121330;
+        color: #fff;
+        font-size:1.2rem;
+        padding:2.5rem;
+        text-align:center;
+        border-radius:3px;
+        border: 1px solid white;
     }
     .feature-box__icon{
         font-size:6rem;

@@ -133,7 +133,7 @@ const Main = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">node</h3>
                         <p className="feature-box__text">
-                        I have two year plus experience with nodejs. Due to my lack of consistency, i am only proeficient in authentication, API endpoints, scraping & CRUD implementation.
+                        I have two year plus experience with nodejs. I am only proeficient in authentication, API endpoints, scraping & CRUD implementation.
                         </p>
                         </div>
                 </div>
