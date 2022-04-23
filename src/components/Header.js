@@ -20,6 +20,8 @@ const Header = () => {
                                 <li></li>
                                 <li></li>
                                 <li></li>
+                                <li></li>
+                                <li></li>
                         </ul>
 
                         <h1 className="heading-primary">
