@@ -33,7 +33,6 @@ const Main = () => {
                         
                         </a>
                 </div>
-                <Skills />
                 <div className="col-1-of-2">
                         <div className="composition">
 
@@ -59,7 +58,10 @@ const Main = () => {
                         </div>
                 </div>
                 </div>
+
                 </section>
+                        
+                <Skills />
                 <section className="section-features">
 
                 <div className="row">
