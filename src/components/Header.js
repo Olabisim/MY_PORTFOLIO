@@ -25,7 +25,7 @@ const Header = () => {
                         </ul>
 
                         <h1 className="heading-primary">
-                                <span className="heading-primary--main">🎉OLABISI</span>
+                                <span className="heading-primary--main">🎉olabisi</span>
                                 <span className="heading-primary--sub">MERN STACK DEVELOPER</span>
                         </h1>
 

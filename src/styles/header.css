@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pinyon+Script&display=swap');
+
+
     .header{
         height:85vh;
         /* background-image:linear-gradient(to right bottom, rgba(28, 40, 52,0.0), rgba(28, 40, 52,0.0)),url(./img/hero-bg.png); */
@@ -140,7 +143,9 @@
         -webkit-animation-name:moveInLeft;
         animation-name:moveInLeft;
         -webkit-animation-duration:2s;
-        animation-duration:2s
+        animation-duration:2s;
+        font-family: 'Cookie', cursive;
+        text-transform: lowercase;
     }
     @media only screen and (max-width: 37.5em){
         body .heading-primary--main{
