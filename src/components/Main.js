@@ -1,4 +1,5 @@
 import React from "react";
+import Skills from "./Skills";
 import '../styles/main.css';
 
 
@@ -32,6 +33,7 @@ const Main = () => {
                         
                         </a>
                 </div>
+                <Skills />
                 <div className="col-1-of-2">
                         <div className="composition">
 
