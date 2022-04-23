@@ -17,11 +17,11 @@ const Main = () => {
                 <div className="row">
                 <div className="col-1-of-2">
                         <h3 className="heading-tertiary u-margin-bottom-small">who am i?</h3>
-                        <p className="paragraph">I am a driven software engineer with a passion for programming and solving difficult problems.
 
-                        Technology is something with which I've always felt a deep connection. I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
+                        <p className="paragraph">
+                                I am a driven software engineer with a passion for programming and solving difficult problems.
+                                Technology is something with which I've always felt a deep connection. I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
                         </p>
-                        
                 
                         <h3 className="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
                         <p className="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
@@ -34,7 +34,12 @@ const Main = () => {
                 </div>
                 <div className="col-1-of-2">
                         <div className="composition">
+
                         {/*
+                        
+                                <div className="prof_pic">
+                                        <img src="../../pass.jpg" alt="pic" />
+                                </div>
 
                         <img srcset="./img/nat-1.jpg 300w, ./img/nat-1-large.jpg 1000w"
                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_1"
