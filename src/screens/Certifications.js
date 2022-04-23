@@ -2,12 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/Card.css';
+import Navigation from '../components/Navigation';
 
 
 const Certifications = () => {
         return (
                 <div>
                         <Header />
+                        <Navigation />
 
                         <h2 className="heading-secondary center-head">
                                 CERTIFICATIONS
