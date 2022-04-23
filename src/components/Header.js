@@ -27,7 +27,7 @@ const Header = () => {
                                 <span className="heading-primary--sub">MERN STACK DEVELOPER</span>
                         </h1>
 
-                        <a href="#section-tours" className="btn btn--white btn--animated">DOWNLOAD RESUME</a>
+                        <a href="#section-tours" className="btn btn--white btn--animated" style={{zIndex: 1000}}>DOWNLOAD RESUME</a>
                 </div>
         </header>
 
