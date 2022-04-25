@@ -3,7 +3,7 @@
 .skill_conatiner {
         background: #fff;
   /* background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f); */
-  overflow-x:hidden;
+  /* overflow-x:hidden; */
   height: 600px;
 }
 @media only screen and (max-width: 600px) {

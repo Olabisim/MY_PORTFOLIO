@@ -10,6 +10,7 @@ const Main = () => {
         <main>
                 <section className="section-about">
                 <div className="u-center-text u-margin-bottom-big">
+                
                 <h2 className="heading-secondary">
                         Passionate Software DEVELOPER
                 </h2>
@@ -61,7 +62,7 @@ const Main = () => {
 
                 </section>
                         
-                <Skills />
+                <Skills name='skills' skillsPage={true} />
                 <section className="section-features">
 
                 <div className="row">
