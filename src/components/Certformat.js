@@ -1,18 +1,31 @@
 
+import '../styles/Card.css';
 
-export const Certformat = () => {
+const Certformat = (props) => {
         return (
                 <div>
                         <div className='certify_main'>
+
                                 <div className="certify_card">
-                                        <img src="../../cert2.jpg" alt="second_cert" />
+                                        <img src={props.img1} alt="second_cert" />
                                         <div className="certify_text">
                                         <h1>DEVELOPER</h1>
                                         </div>
                                 </div>
+
                                 <div className="certify_card">
 
-                                        <img src="../../cert1.jpg" alt="first_cert" />
+                                        <img src={props.img2} alt="first_cert" />
+
+                                        <div className="certify_text">
+                                                <h1>DEVELOPER</h1>
+                                        </div>
+                                </div> 
+                                
+                                <div className="certify_card">
+
+                                        <img src={props.img3} alt="first_cert" />
+                                        
                                         <div className="certify_text">
                                                 <h1>DEVELOPER</h1>
                                         </div>
@@ -22,3 +35,5 @@ export const Certformat = () => {
                 </div>
         )
 }
+
+export { Certformat }
