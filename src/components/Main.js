@@ -22,7 +22,9 @@ const Main = () => {
 
                         <p className="paragraph">
                                 I am a driven software engineer with a passion for programming and solving difficult problems.
-                                Technology is something with which I've always felt a deep connection. I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
+                                Technology is something with which I've always felt a deep connection. 
+                                Developing creative solutions and thinking beyond standard approaches are my thing.
+                                I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
                         </p>
                 
                         <h3 className="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
@@ -99,7 +101,7 @@ const Main = () => {
 
                         <h3 className="heading-tertiary u-margin-bottom-small">mongodb</h3>
                         <p className="feature-box__text">
-                                I have a year plus experience with mongodb and mongoose. This is my major database
+                                I have three years of experience with mongodb and mongoose. This is my major database
                         </p>
                         </div>
                 </div>
@@ -110,7 +112,7 @@ const Main = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">express</h3>
                         <p className="feature-box__text">
-                        I have a year plus experience with express. This is my major something
+                        I have three years plus experience with express. This is my major something
                         </p>
                         </div>
                 </div>
@@ -121,7 +123,7 @@ const Main = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">react</h3>
                         <p className="feature-box__text">
-                        I have two years plus experience with react and react-native. I also gained vast familiarity with redux-toolkit and develop desktop applications with react-native.
+                        I have four years plus experience with react and react-native. I also gained vast familiarity with redux-toolkit and develop desktop applications with react-native.
                         </p>
                         </div>
                 </div>
@@ -143,7 +145,7 @@ const Main = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">node</h3>
                         <p className="feature-box__text">
-                        I have two year plus experience with nodejs. I am only proeficient in authentication, API endpoints, scraping & CRUD implementation.
+                        I have three years plus experience with nodejs. I am only proeficient in authentication, API endpoints, scraping & CRUD implementation.
                         </p>
                         </div>
                 </div>
