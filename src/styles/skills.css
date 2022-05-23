@@ -28,10 +28,12 @@ h1.text-skills {
   position: absolute;
   left: 0;
   right: 0;
-  font-size: 30rem;
+  font-size: 16rem;
   filter: opacity(0.2);
   text-align: center;
   color: blue;
+  text-transform: uppercase;
+  letter-spacing: 15px;
 }
 
 .skills-section img {

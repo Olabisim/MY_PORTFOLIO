@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cardarticle_container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cardarticle_card {
+    background-position: center;
+    background-size: cover;
+    width: 16rem;
+    border-radius: 1rem;
+}
+
+
+.cardarticle_numberHI {
+        font-family: 'Sacramento', cursive;
+}
+
+.cardarticle_card.one {
+        background-color: BLUE;
+        height: 300px;
+        width: 300px;
+}
+
+.cardarticle_details {
+    margin-top: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: BLUE;
+    border-top: 1px solid #ffffff30;
+    border-radius: 1rem;
+    -webkit-backdrop-filter: blur(0.75rem);
+    backdrop-filter: blur(0.75rem);
+}
+
+.cardarticle_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+    font-family: Lato, sans-serif;
+}
+
+.cardarticle_content h1 {
+    color: #ffffff;
+    font-size: 3.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+}
+
+.cardarticle_content p {
+    color: #ffffffaa;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.cardarticle_content a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08rem;
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.75rem 4rem;
+    border: 1px solid #ffffff00;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.5rem 10px #00000025;
+    transition: ease 0.5s;
+}
+
+.cardarticle_content a:hover {
+    border: 1px solid #00000050;
+    transform: translate(0, -0.2rem);
+}

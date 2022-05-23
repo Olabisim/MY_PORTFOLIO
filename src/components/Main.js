@@ -2,6 +2,8 @@ import React from "react";
 import Skills from "./Skills";
 import '../styles/main.css';
 
+import Card from '../components/Card';
+
 
 const Main = () => {
         return (
@@ -10,6 +12,12 @@ const Main = () => {
         <main>
         
                 <Skills name='articles' skillsPage={true} />
+                <div style={{display: 'flex', justifyContent: "space-evenly"}}>
+                        <Card number="01" title="react-native" description=" setting react-native windows" />
+                        <Card number="02" title="react-native" description=" setting react-native windows" />
+                        <Card number="03" title="react-native" description=" setting react-native windows" />
+                        
+                </div>
 
                         {/*
                         
