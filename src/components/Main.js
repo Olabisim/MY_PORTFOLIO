@@ -8,6 +8,11 @@ const Main = () => {
                 
                 
         <main>
+        
+                <Skills name='articles' skillsPage={true} />
+
+                        {/*
+                        
                 <section className="section-about">
                 <div className="u-center-text u-margin-bottom-big">
                 
@@ -38,8 +43,6 @@ const Main = () => {
                 </div>
                 <div className="col-1-of-2">
                         <div className="composition">
-
-                        {/*
                         
                                 <div className="prof_pic">
                                         <img src="../../pass.jpg" alt="pic" />
@@ -57,12 +60,13 @@ const Main = () => {
                         sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_3"
                         className="composition__photo composition__photo--p3" src="./img/nat-3-large.jpg" />
 
-                        */}
+                        
                         </div>
                 </div>
                 </div>
 
                 </section>
+                        */}
                         
                 <Skills name='skills' skillsPage={true} />
                 <section className="section-features">
@@ -151,12 +155,11 @@ const Main = () => {
                 </div>
                 </div>
                 </section>
-
-                <section id="section-tours" className="section-tours">
+                
+                <Skills name='projects' skillsPage={true} />
+                <section id="section-tours" className="section-tours" style={{padding: 0}}>
                 <div className="u-center-text u-margin-bottom-big">
-                <h2 className="heading-secondary">
-                        A Gallery of recent projects i've built
-                </h2>
+
                 </div>
 
                 <div className="row">
