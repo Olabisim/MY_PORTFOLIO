@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Rampart+One&family=Sacramento&display=swap');
 
 
     .header{
@@ -145,7 +146,7 @@
         -webkit-animation-duration:2s;
         animation-duration:2s;
         font-family: 'Cookie', cursive;
-        text-transform: lowercase;
+        text-transform: lowercase;font-family: 'Oi', cursive;
     }
     @media only screen and (max-width: 37.5em){
         body .heading-primary--main{
