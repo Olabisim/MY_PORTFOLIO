@@ -14,8 +14,8 @@ const Main = () => {
                 <Skills name='articles' skillsPage={true} />
                 <div style={{display: 'flex', justifyContent: "space-evenly"}}>
                         <Card number="01" title="react-native" description=" setting react-native windows" link="https://medium.com/@olabisiajoseh/setting-up-a-react-native-desktop-app-in-5-minutes-d06718838caa" />
-                        <Card number="02" title="react-native" description=" setting react-native windows" />
-                        <Card number="03" title="react-native" description=" setting react-native windows" />
+                        <Card number="02" title="react" description=" setting react-native windows" />
+                        <Card number="03" title="react-native" description=" setting react-native windows" link="https://medium.com/@olabisiajoseh/new-wave-of-writing-react-native-322a2613baf4" />
                         
                 </div>
 

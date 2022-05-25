@@ -29,7 +29,7 @@
 }
 
 .cardarticle_card.one {
-        background-color: BLUE;
+    border: 1px solid blue;
         height: 300px;
         width: 300px;
 }
@@ -54,10 +54,12 @@
 }
 
 .cardarticle_content h1 {
-    color: #ffffff;
+    color: blue;
     font-size: 3.25rem;
     margin-bottom: 0.5rem;
     font-weight: 100;
+    text-transform: capitalize;
+
 }
 
 .cardarticle_content p {
@@ -68,7 +70,7 @@
 
 .cardarticle_content a {
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 100;
     letter-spacing: 0.08rem;
     color: blue;
     text-decoration: none;
