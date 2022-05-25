@@ -286,6 +286,7 @@ const Main = () => {
                 </section>
 
 
+                <Skills name='reviews' skillsPage={true} />
                 <section className="section-stories">
                 <div className="bg-video">
                 <video className="bg-video__content" autoPlay muted loop>
