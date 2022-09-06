@@ -14,9 +14,8 @@ const Navigation = () => {
                 
                         <nav className="navigation__nav">
                                 <ul className="navigation__list">
-                                        <li className="navigation__item"><a href="https://stackoverflow.com/users/17935964/holabisii" target="_blank" rel="noreferrer" className="navigation__link"><span>01</span>ABOUT ME</a></li>
+                                        <li className="navigation__item"><a href="https://twitter.com/Holabisii1" target="_blank" rel="noreferrer" className="navigation__link"><span>01</span>TWITTER</a></li>
                                         <li className="navigation__item"><a href="https://github.com/Olabisim" target="_blank" rel="noreferrer" className="navigation__link"><span>02</span>GITHUB</a></li>
-                                        <li className="navigation__item"><a href="https://github.com/Olabisim" target="_blank" rel="noreferrer" className="navigation__link"><span>03</span>LINKEDLN</a></li>
                                         <li className="navigation__item"><a href="https://stackoverflow.com/users/17935964/holabisii" target="_blank" rel="noreferrer" className="navigation__link"><span>04</span>STACK OVERFLOW</a></li>
                                 </ul>
                         </nav>

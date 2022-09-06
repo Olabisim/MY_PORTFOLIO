@@ -14,7 +14,13 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    background: white;
 }
+.cardarticle_container:hover {
+    cursor: pointer;
+}
+
+
 
 .cardarticle_card {
     background-position: center;
@@ -86,4 +92,13 @@
 .cardarticle_content a:hover {
     border: 1px solid #00000050;
     transform: translate(0, -0.2rem);
+}
+
+.cardarticle_description {
+    background-color: blue;
+    padding: 5px 10px;
+    color: white !important;
+    border-radius: 5px;
+    text-transform: capitalize;
+    word-spacing: 3px;
 }

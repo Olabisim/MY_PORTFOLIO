@@ -11,70 +11,58 @@ const Main = () => {
                 
         <main>
         
+                <section className="section-about">
+                        <div className="u-center-text u-margin-bottom-big">
+                        
+                        <h2 className="heading-secondary">
+                                Passionate Software DEVELOPER
+                        </h2>
+                        </div>
+
+                        <div className="row flex">
+                                <div>
+                                        <h3 className="heading-tertiary u-margin-bottom-small">who am i?</h3>
+
+                                        <p className="paragraph">
+                                                I am a driven software engineer with a passion for programming and solving difficult problems.
+                                                Technology is something with which I've always felt a deep connection. 
+                                                Developing creative solutions and thinking beyond standard approaches are my thing.
+                                                I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
+                                        </p>
+                                
+                                        <h3 className="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
+                                        <p className="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
+
+                                        <a href="/certify" className="btn-text">
+                                        
+                                                check certifications &rarr;
+                                        
+                                        </a>
+                                </div>
+                                <div>
+                                        <div className="composition">
+                                        
+                                                <div className="prof_pic">
+                                                        <img src="../../DSC_1036.jpg" alt="pic" width={300}  />
+                                                </div>
+                                        
+                                        </div>
+                                </div>
+                        </div>
+
+                </section>
+        
                 <Skills name='articles' skillsPage={true} />
                 <div style={{display: 'flex', justifyContent: "space-evenly"}}>
                         <Card number="01" title="react-native" description=" setting react-native windows" link="https://medium.com/@olabisiajoseh/setting-up-a-react-native-desktop-app-in-5-minutes-d06718838caa" />
-                        <Card number="02" title="react" description=" setting react-native windows" />
-                        <Card number="03" title="react-native" description=" setting react-native windows" link="https://medium.com/@olabisiajoseh/new-wave-of-writing-react-native-322a2613baf4" />
+                        <Card number="02" title="react" description="Responsive React NavBar with useRef hook" link="https://medium.com/@olabisiajoseh/responsive-react-navbar-with-useref-hook-923b88b63ff8" />
+                        <Card number="03" title="react-native" description=" New Wave Of Writing React-Native" link="https://medium.com/@olabisiajoseh/new-wave-of-writing-react-native-322a2613baf4" />
                         
                 </div>
 
-                        {/*
                         
-                <section className="section-about">
-                <div className="u-center-text u-margin-bottom-big">
-                
-                <h2 className="heading-secondary">
-                        Passionate Software DEVELOPER
-                </h2>
-                </div>
-
-                <div className="row">
-                <div className="col-1-of-2">
-                        <h3 className="heading-tertiary u-margin-bottom-small">who am i?</h3>
-
-                        <p className="paragraph">
-                                I am a driven software engineer with a passion for programming and solving difficult problems.
-                                Technology is something with which I've always felt a deep connection. 
-                                Developing creative solutions and thinking beyond standard approaches are my thing.
-                                I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
-                        </p>
-                
-                        <h3 className="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
-                        <p className="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
-
-                        <a href="/certify" className="btn-text">
                         
-                                check certifications &rarr;
                         
-                        </a>
-                </div>
-                <div className="col-1-of-2">
-                        <div className="composition">
-                        
-                                <div className="prof_pic">
-                                        <img src="../../pass.jpg" alt="pic" />
-                                </div>
-
-                        <img srcset="./img/nat-1.jpg 300w, ./img/nat-1-large.jpg 1000w"
-                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_1"
-                        className="composition__photo composition__photo--p1" src="./img/nat-1-large.jpg" />
-
-                        <img srcset="./img/nat-2.jpg 300w, ./img/nat-2-large.jpg 1000w"
-                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_2"
-                        className="composition__photo composition__photo--p2" src="./img/nat-2-large.jpg" />
-
-                        <img srcset="./img/nat-3.jpg 300w, ./img/nat-3-large.jpg 1000w"
-                        sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo_3"
-                        className="composition__photo composition__photo--p3" src="./img/nat-3-large.jpg" />
-
-                        
-                        </div>
-                </div>
-                </div>
-
-                </section>
-                        */}
                         
                 <Skills name='skills' skillsPage={true} />
                 <section className="section-features">
@@ -113,7 +101,7 @@ const Main = () => {
 
                         <h3 className="heading-tertiary u-margin-bottom-small">mongodb</h3>
                         <p className="feature-box__text">
-                                I have three years of experience with mongodb and mongoose. This is my major database
+                                I have two (2) years of experience creating CRUD operations with mongoose in mongoDB.
                         </p>
                         </div>
                 </div>
@@ -124,7 +112,7 @@ const Main = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">express</h3>
                         <p className="feature-box__text">
-                        I have three years plus experience with express. This is my major something
+                        I have two years plus experience creating server-side web applications with express.
                         </p>
                         </div>
                 </div>
@@ -135,7 +123,7 @@ const Main = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">react</h3>
                         <p className="feature-box__text">
-                        I have four years plus experience with react and react-native. I also gained vast familiarity with redux-toolkit and develop desktop applications with react-native.
+                        I have four years plus experience with react. I also gained vast familiarity with redux-toolkit and developed desktop applications with react-native.
                         </p>
                         </div>
                 </div>
@@ -157,7 +145,7 @@ const Main = () => {
                         </span>
                         <h3 className="heading-tertiary u-margin-bottom-small">node</h3>
                         <p className="feature-box__text">
-                        I have three years plus experience with nodejs. I am only proeficient in authentication, API endpoints, scraping & CRUD implementation.
+                        I have two years plus experience with nodejs. I am only proeficient in authentication, API endpoints, scraping, sending emails & CRUD implementation.
                         </p>
                         </div>
                 </div>

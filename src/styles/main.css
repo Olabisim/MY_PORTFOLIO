@@ -721,7 +721,7 @@
 
 
 
-/* i stopped here for first general copy */
+/* i stopped here for first general mutate */
 
 
 
@@ -730,7 +730,13 @@
 
 
 
-
+    .flex {
+        display: flex;
+    }
+    
+    .flex div:nth-of-type(1) {
+        padding-right: 40px;
+    }
 
     .u-center-text{
         text-align:center !important
@@ -1734,7 +1740,7 @@
     }
     .section-stories{
         position:relative;
-        padding:15rem 0
+        padding:0 0 10rem 0
     }
     @media only screen and (max-width: 56.25em){
         .section-stories{
