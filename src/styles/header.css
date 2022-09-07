@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oi&family=Rampart+One&family=Sacramento&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Cinzel:wght@400;500;600;700;800;900&family=Poller+One&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 
     .header{
         height:85vh;
@@ -139,14 +139,27 @@
     body .heading-primary--main{
         display:block;
         font-size:6rem;
-        font-weight:400;
+        font-weight:100 !important;
         letter-spacing:3.5rem;
         -webkit-animation-name:moveInLeft;
         animation-name:moveInLeft;
         -webkit-animation-duration:2s;
         animation-duration:2s;
-        font-family: 'Cookie', cursive;
-        text-transform: lowercase;font-family: 'Oi', cursive;
+        font-family: 'Poller One', cursive;
+        font-family: 'Raleway', sans-serif;
+        /* text-transform: lowercase; */
+        text-transform: uppercase;
+        /* font-family: 'Oi', cursive; */
+    }
+    .resume_button {
+        letter-spacing: 1px;
+        z-index: 1000;
+        font-weight: 100;
+        word-spacing: 5px;
+        background: none !important;
+        border: 1px solid white !important;
+        color: white;
+        font-family: 'Raleway', sans-serif;
     }
     @media only screen and (max-width: 37.5em){
         body .heading-primary--main{
@@ -156,9 +169,11 @@
     }
     body .heading-primary--sub{
         display:block;
-        font-size:2rem;
-        font-weight:700;
-        letter-spacing:1.75rem;
+        font-size:3.2rem !important;
+        font-weight:100 !important;
+        letter-spacing:1rem !important;
+        word-spacing: 2px;
+        font-family: 'Raleway', sans-serif !important;
         -webkit-animation-name:moveInRight;
         animation-name:moveInRight;
         -webkit-animation-duration:2.5s;
