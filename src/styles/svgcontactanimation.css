@@ -1,0 +1,41 @@
+
+      
+      .background {
+        position: relative;
+        margin: 20px auto;
+        text-align: center;
+        width: 60%;
+      }
+      /* #background-illustration{
+        position: absolute;
+      } */
+      
+      #background-illustration #Msg {
+        animation: floating 3s infinite alternate;
+      }
+      #background-illustration #BtnLeft {
+        animation: floating 3s 1s infinite alternate;
+      }
+      #background-illustration #BtnRight {
+        animation: floating 3s 2s infinite backwards alternate;
+      }
+      #background-illustration #Plus {
+        animation: blipping 3s infinite alternate;
+      }
+      
+      @keyframes floating {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(20px);
+        }
+      }
+      @keyframes blipping {
+        0% {
+          opacity: 0.3;
+        }
+        100% {
+          opacity: 0.1;
+        }
+      }

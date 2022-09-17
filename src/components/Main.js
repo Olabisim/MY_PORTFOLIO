@@ -3,7 +3,7 @@ import Skills from "./Skills";
 import '../styles/main.css';
 
 import Card from '../components/Card';
-
+import { SvgContact } from "./SvgContact";
 
 const Main = () => {
         return (
@@ -274,7 +274,8 @@ const Main = () => {
                 </section>
 
 
-                <Skills name='reviews' skillsPage={true} />
+                <Skills name='notify me' skillsPage={true} />
+                {/*
                 <section className="section-stories">
                 <div className="bg-video">
                 <video className="bg-video__content" autoPlay muted loop>
@@ -325,49 +326,54 @@ const Main = () => {
                 <a href="#btn-te" className="btn-text">Read all stories &rarr;</a>
                 </div>
                 </section>
-
+                */}
                 <section className="section-booking">
                 <div className="row">
                 <div className="booking">
                         <div className="booking__form">
-                        <form action="#" className="form">
-                        <div className="u-margin-bottom-medium">
-                        <h2 className="heading-secondary">
-                                WORK?
-                        </h2>
-                        </div>
-                        <div className="form__group">
-                        <input type="text" className="form__input" placeholder="Full name" id="name" required />
-                        <label htmlFor="name" className="form__label">Full name</label>
-                        </div>
+                                
+                                <form action="#" className="form">
+                                        <div className="u-margin-bottom-medium">
+                                        <h2 className="heading-secondary" id="special_contact_h2">
+                                                WORK?
+                                        </h2>
+                                        </div>
+                                        <div className="form__group">
+                                        <input type="text" className="form__input" placeholder="Full name" id="name" required />
+                                        <label htmlFor="name" className="form__label">Full name</label>
+                                        </div>
 
-                        <div className="form__group">
-                        <input type="email" className="form__input" placeholder="Email address" id="email" required />
-                        <label htmlFor="email" className="form__label">Email address</label>
-                        </div>
+                                        <div className="form__group">
+                                        <input type="email" className="form__input" placeholder="Email address" id="email" required />
+                                        <label htmlFor="email" className="form__label">Email address</label>
+                                        </div>
 
-                        <div className="form__group u-margin-bottom-medium">
-                        <div className="form__radio-group">
-                                <input type="radio" className="form__radio-input" id="small" name="size" />
-                                <label htmlFor="small" className="form__radio-label">
-                                <span className="form__radio-button"></span>
-                                Single project
-                                </label>
-                        </div>
+                                        <div className="form__group u-margin-bottom-medium">
+                                        <div className="form__radio-group">
+                                                <input type="radio" className="form__radio-input" id="small" name="size" />
+                                                <label htmlFor="small" className="form__radio-label">
+                                                <span className="form__radio-button"></span>
+                                                Single project
+                                                </label>
+                                        </div>
 
-                        <div className="form__radio-group">
-                                <input type="radio" className="form__radio-input" id="large" name="size" />
-                                <label htmlFor="large" className="form__radio-label">
-                                <span className="form__radio-button"></span>
-                                Join a team
-                                </label>
+                                        <div className="form__radio-group">
+                                                <input type="radio" className="form__radio-input" id="large" name="size" />
+                                                <label htmlFor="large" className="form__radio-label">
+                                                <span className="form__radio-button"></span>
+                                                Join a team
+                                                </label>
+                                        </div>
+                                        </div>
+                                        <div className="form__group">
+                                        <button className="btn">Next step &rarr;</button>
+                                        </div>
+                                </form>
+
+
+                                <SvgContact />
                         </div>
-                        </div>
-                        <div className="form__group">
-                        <button className="btn btn--green">Next step &rarr;</button>
-                        </div>
-                        </form>
-                        </div>
+                        
                 </div>
                 </div>
                 </section>
