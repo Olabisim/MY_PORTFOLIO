@@ -5,8 +5,8 @@ const Skills = ({name, skillsPage}) => {
         return (
                 <div className='skill_conatiner'>
   
-                        <section class="skills-section my-skills" id="skills">
-                        <h1 class="text-skills" data-aos="slide-up">{name}</h1>
+                        <section className="skills-section my-skills" id="skills">
+                        <h1 className="text-skills" data-aos="slide-up">{name}</h1>
                         {
                                 skillsPage 
                                 &&

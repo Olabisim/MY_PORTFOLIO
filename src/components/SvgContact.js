@@ -3,7 +3,6 @@ import '../styles/svgcontactanimation.css'
 
 export const SvgContact = () => {
         return (
-                // <div class="background">
         <svg viewBox="0 0 730 900" fill="none" xmlns="http://www.w3.org/2000/svg" style={{width: '350px'}} >
         <g id="background-illustration">
         <path id="Vector" opacity="0.07" d="M729.7 452.537C717 445.137 707.8 444.937 702.1 451.937C696.4 458.837 693.6 470.537 693.6 487.037V575.937C693.6 592.837 692 606.837 688.9 617.937C685.8 629.437 680.5 637.637 673.2 642.437C666.1 647.337 656.5 648.637 644.3 646.337C632.4 644.137 617.5 637.937 599.7 627.637L591.2 622.737V552.737L601.8 558.837C614.5 566.237 623 567.137 627.3 561.737C631.8 556.537 634.1 545.637 634.1 529.137V450.837C634.1 430.437 636.1 414.337 640.1 402.437C644.1 390.537 652 383.037 663.9 379.637C652 362.537 644.1 345.837 640.1 329.437C636.1 313.037 634.2 294.637 634.2 274.237V195.937C634.2 179.437 631.9 166.037 627.4 155.537C623.2 145.237 614.7 136.437 601.9 129.037L591.3 122.937V52.9371L599.8 57.8371C617.6 68.1371 632.5 79.0371 644.4 90.6371C656.6 102.337 666.2 114.837 673.3 127.937C680.7 141.237 685.9 155.437 689 170.537C692.1 185.237 693.7 201.137 693.7 217.937V306.837C693.7 323.337 696.5 338.337 702.2 351.737C707.9 365.237 717.1 375.637 729.8 382.937L729.7 452.537Z" fill="url(#paint0_linear)"/>
@@ -38,48 +37,47 @@ export const SvgContact = () => {
         </g>
         <defs>
         <linearGradient id="paint0_linear" x1="792.614" y1="73.1556" x2="545.984" y2="500.603" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint1_linear" x1="674.027" y1="2.88395" x2="427.396" y2="430.332" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint2_linear" x1="752.614" y1="103.156" x2="505.984" y2="530.603" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint3_linear" x1="634.026" y1="32.8838" x2="387.396" y2="460.332" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint4_linear" x1="319.201" y1="112.69" x2="155.933" y2="395.554" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint5_linear" x1="203.837" y1="13.0729" x2="255.85" y2="160.55" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint6_linear" x1="529.193" y1="492.215" x2="365.925" y2="775.079" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint7_linear" x1="413.829" y1="392.598" x2="465.842" y2="540.075" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint8_linear" x1="260.732" y1="386.369" x2="107.081" y2="506.673" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         <linearGradient id="paint9_linear" x1="235.959" y1="643.1" x2="183.587" y2="684.405" gradientUnits="userSpaceOnUse">
-        <stop stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
+        <stop stopColor="white"/>
+        <stop offset="1" stopColor="white" stopOpacity="0"/>
         </linearGradient>
         </defs>
         </svg>
-        // </div>
 
 
         )
