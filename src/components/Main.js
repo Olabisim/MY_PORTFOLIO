@@ -54,9 +54,12 @@ const Main = () => {
         
                 <Skills name='articles' skillsPage={true} />
                 <div style={{display: 'flex', justifyContent: "space-evenly"}}>
-                        <Card number="01" title="react-native" description=" setting react-native windows" link="https://medium.com/@olabisiajoseh/setting-up-a-react-native-desktop-app-in-5-minutes-d06718838caa" />
-                        <Card number="02" title="react" description="Responsive React NavBar with useRef hook" link="https://medium.com/@olabisiajoseh/responsive-react-navbar-with-useref-hook-923b88b63ff8" />
-                        <Card number="03" title="react-native" description=" New Wave Of Writing React-Native" link="https://medium.com/@olabisiajoseh/new-wave-of-writing-react-native-322a2613baf4" />
+                
+                        <div class="cards">
+                                <Card date="April 19 2022" title="react-native" description=" setting react-native windows desktop app in 5 minutes" link="https://medium.com/@olabisiajoseh/setting-up-a-react-native-desktop-app-in-5-minutes-d06718838caa" />
+                                <Card date="August 31 2022" title="react" description="Responsive React NavBar with useRef hook" link="https://medium.com/@olabisiajoseh/responsive-react-navbar-with-useref-hook-923b88b63ff8" />
+                                <Card date="May 24 2022" title="react-native" description=" New Wave Of Writing React-Native" link="https://medium.com/@olabisiajoseh/new-wave-of-writing-react-native-322a2613baf4" />
+                        </div>
                         
                 </div>
 
@@ -223,7 +226,7 @@ const Main = () => {
                                 */}
                                 <p className="card__price-value">...</p>
                         </div>
-                        <a href="https://olabecommerceapp.herokuapp.com/" target='_blank' rel="noreferrer"  className="btn btn--white">View now!</a>
+                        <a href="https://github.com/Olabisim/MERN-ECOMMERCE" target='_blank' rel="noreferrer"  className="btn btn--white">View now!</a>
                         </div>
                         </div>
                         </div>

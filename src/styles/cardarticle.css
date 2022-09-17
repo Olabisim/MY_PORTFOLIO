@@ -1,104 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+.cards {
+  padding: 20px;
+  max-width: 100vw;
 }
-
-.cardarticle_container {
-    height: 30vh;
+@media (min-width: 900px) {
+  .cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    background: white;
+    align-items: stretch;
+    justify-content: space-between;
+  }
 }
-.cardarticle_container:hover {
-    cursor: pointer;
+.cards__item {
+  flex: 0 1 auto;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #323a45;
+  height: auto;
+  text-align: left;
+  text-decoration: none;
+  border-top: 3px solid #9b59b6;
+  border-right: 1px solid #e1e3e5;
+  border-bottom: 1px solid #e1e3e5;
+  border-left: 1px solid #e1e3e5;
+  padding: 40px 50px;
+  margin: 20px;
+  transition: all 250ms ease-in-out;
+  width: auto;
 }
-
-
-
-.cardarticle_card {
-    background-position: center;
-    background-size: cover;
-    width: 16rem;
-    border-radius: 1rem;
+@media (min-width: 900px) {
+  .cards__item {
+    width: calc(100% / 3);
+  }
 }
-
-
-.cardarticle_numberHI {
-        font-family: 'Sacramento', cursive;
+.cards__item:hover, .cards__item:focus {
+  background: #9b59b6;
+  border-color: #9b59b6;
+  color: #fff;
+  outline: 0;
 }
-
-.cardarticle_card.one {
-    border: 1px solid blue;
-        height: 300px;
-        width: 300px;
+.cards__item:hover .cards__date, .cards__item:focus .cards__date {
+  color: rgba(255, 255, 255, 0.6);
 }
-
-.cardarticle_details {
-    margin-top: 60%;
-    display: flex;
-    justify-content: center;
-    background-color: BLUE;
-    border-top: 1px solid #ffffff30;
-    border-radius: 1rem;
-    -webkit-backdrop-filter: blur(0.75rem);
-    backdrop-filter: blur(0.75rem);
+.cards__item:hover .cards__title, .cards__item:focus .cards__title {
+  color: #fff;
 }
-
-.cardarticle_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2rem 1rem;
-    font-family: Lato, sans-serif;
+.cards__item:hover .cards__more, .cards__item:focus .cards__more {
+  color: #fff;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.6);
 }
-
-.cardarticle_content h1 {
-    color: blue;
-    font-size: 3.25rem;
-    margin-bottom: 0.5rem;
-    font-weight: 100;
-    text-transform: capitalize;
-
+.cards__item:nth-of-type(2) {
+  border-top: 3px solid #ff6d3a;
 }
-
-.cardarticle_content p {
-    color: #ffffffaa;
-    margin-bottom: 1.5rem;
-    text-align: center;
+.cards__item:nth-of-type(2):hover, .cards__item:nth-of-type(2):focus {
+  background: #ff6d3a;
+  border-color: #ff6d3a;
 }
-
-.cardarticle_content a {
-    font-size: 1.8rem;
-    font-weight: 100;
-    letter-spacing: 0.08rem;
-    color: blue;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0.75rem 4rem;
-    border: 1px solid #ffffff00;
-    border-radius: 0.5rem;
-    background-color: #ffffff;
-    box-shadow: 0 0.5rem 10px #00000025;
-    transition: ease 0.5s;
+.cards__item:nth-of-type(3) {
+  border-top: 3px solid #3498db;
 }
-
-.cardarticle_content a:hover {
-    border: 1px solid #00000050;
-    transform: translate(0, -0.2rem);
+.cards__item:nth-of-type(3):hover, .cards__item:nth-of-type(3):focus {
+  background: #3498db;
+  border-color: #3498db;
 }
-
-.cardarticle_description {
-    background-color: blue;
-    padding: 5px 10px;
-    color: white !important;
-    border-radius: 5px;
-    text-transform: capitalize;
-    word-spacing: 3px;
+.cards__date {
+  display: block;
+  color: #8a959e;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  transition: all 250ms ease-in-out;
+}
+.cards__title {
+  color: #323a45;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+  transition: all 250ms ease-in-out;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+@media (min-width: 1200px) {
+  .cards__title {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+  }
+}
+.cards__more {
+  margin-top: auto;
+  color: #8a959e;
+  display: inline-block;
+  border-bottom: 1px solid #e1e3e5;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  transition: all 250ms ease-in-out;
 }

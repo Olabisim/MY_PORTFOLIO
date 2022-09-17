@@ -944,7 +944,7 @@
         font-size:6rem;
         margin-bottom:2.5rem;
         display:inline-block;
-        background-image:linear-gradient(to right, #7ed56f, blue;);
+        background-image:linear-gradient(to right, #7ed56f, blue);
         -webkit-background-clip:text;
         color:transparent
     }
@@ -979,7 +979,7 @@
         background-image:linear-gradient(to right bottom, #ffb900, #ff7730)
     }
     .card__side--back-2{
-        background-image:linear-gradient(to right bottom, #7ed56f, blue;)
+        background-image:linear-gradient(to right bottom, #7ed56f, blue)
     }
     .card__side--back-3{
         background-image:linear-gradient(to right bottom, #2998ff, #5643fa)
