@@ -12,6 +12,7 @@
         text-align: center;
         /* border-bottom: 1px solid white; */
         /* line-height: 3; */
+        text-transform: uppercase;
 }
 .projectcard p {
         font-size: 18px;
