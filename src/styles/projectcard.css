@@ -1,0 +1,26 @@
+.projectcard {
+        box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
+        padding: 3em;
+        /* background: blue; */
+        /* color: white; */
+}
+.projectcard h2 {
+        font-size: 18px;
+        /* background-color: blue; */
+        /* color: white; */
+        padding: 5px;
+        text-align: center;
+        /* border-bottom: 1px solid white; */
+        /* line-height: 3; */
+}
+.projectcard p {
+        font-size: 18px;
+}
+.projectcard p span{
+        display: block;
+}
+.projectcard a {
+        border: 1px solid blue !important;
+        border-radius: 0 !important;
+        margin-top: 25px;
+}

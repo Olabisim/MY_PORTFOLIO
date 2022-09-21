@@ -4,6 +4,7 @@ import '../styles/main.css';
 
 import Card from '../components/Card';
 import { SvgContact } from "./SvgContact";
+import { ProjectCard } from "./ProjectCard";
 
 const Main = () => {
         return (
@@ -157,123 +158,38 @@ const Main = () => {
                 
                 <Skills name='projects' skillsPage={true} />
                 <section id="section-tours" className="section-tours" style={{padding: 0}}>
-                <div className="u-center-text u-margin-bottom-big">
 
-                </div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
 
-                <div className="row">
-                <div className="col-1-of-3 ">
-                        <div className="card">
-                        <div className="card__side card__side--front">
-                        <div className="card__picture card__picture-1">
-                        &nbsp;
+                        <div className="row">
+                                <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 
+                                        <span>React</span>
+                                        <span>Redux</span>
+                                        <span>React native navigation</span>
+                                </ProjectCard>
+                                <ProjectCard title={"E-COMMERCE"} link="https://github.com/Olabisim/MERN-ECOMMERCE" linkName="View github" > 
+                                        <span>React</span>
+                                        <span>Redux</span>
+                                        <span>Node</span>
+                                </ProjectCard>
+                                <ProjectCard title={"COVID-19"} link="https://guarded-tundra-34082.herokuapp.com/" linkName="View Live" > 
+                                        <span>Sass</span>
+                                        <span>Less</span>
+                                        <span>Node</span>
+                                </ProjectCard>
                         </div>
-                        <h4 className="card__heading">
-                        <span className="card__heading-span--1">
-                                youtube <br />clone
-                        </span>
-                        </h4>
-                        <div className="card__details">
-                        <ul>
-                                <li>react-native</li>
-                                <li>redux</li>
-                                <li>react-navigation</li>
-                                <li>Sleep in cozy hotels</li>
-                                <li>Difficulty: normal</li>
-                        </ul>
 
+                        <div className="u-center-text u-margin-top-huge">
+                                <a href="#btn" className="btn btn--green">All other works</a>
                         </div>
-                        </div>
-                        <div className="card__side card__side--back card__side--back-1">
-                        <div className="card__cta">
-                        <div className="card__price-box">
-                                {/*
-                                <p className="card__price-only">Only</p>
-                                */}
-                                <p className="card__price-value">...</p>
-                        </div>
-                        <a href="https://github.com/Olabisim/youtube_clone" target='_blank' rel="noreferrer" className="btn btn--white">view github</a>
-                        </div>
-                        </div>
-                        </div>
-                </div>
-                <div className="col-1-of-3 ">
-                        <div className="card">
-                        <div className="card__side card__side--front">
-                        <div className="card__picture card__picture-2">
-                        &nbsp;
-                        </div>
-                        <h4 className="card__heading">
-                        <span className="card__heading-span--2">
-                                ECOMMERCE <br /> APP
-                        </span>
-                        </h4>
-                        <div className="card__details">
-                        <ul>
-                                <li>MONGODB</li>
-                                <li>EXPRESS</li>
-                                <li>REACT</li>
-                                <li>NODE</li>
-                                <li>Difficulty: medium</li>
-                        </ul>
-                        </div>
-                        </div>
-                        <div className="card__side card__side--back card__side--back-2">
-                        <div className="card__cta">
-                        <div className="card__price-box">
-                                {/*
-                                <p className="card__price-only">Only</p>
-                                */}
-                                <p className="card__price-value">...</p>
-                        </div>
-                        <a href="https://github.com/Olabisim/MERN-ECOMMERCE" target='_blank' rel="noreferrer"  className="btn btn--white">View now!</a>
-                        </div>
-                        </div>
-                        </div>
-                </div>
-
-
-                <div className="col-1-of-3 ">
-                        <div className="card">
-                        <div className="card__side card__side--front">
-                        <div className="card__picture card__picture-3">
-                        &nbsp;
-                        </div>
-                        <h4 className="card__heading">
-                        <span className="card__heading-span--3">
-                                COVID <br /> 19
-                        </span>
-                        </h4>
-                        <div className="card__details">
-                        <ul>
-                                <li>NODE</li>
-                                <li>EXPRESS</li>
-                                <li>SCSS</li>
-                                <li>LESS</li>
-                                <li>Difficulty: hard</li>
-                        </ul>
-                        </div>
-                        </div>
-                        <div className="card__side card__side--back card__side--back-3">
-                        <div className="card__cta">
-                        <div className="card__price-box">
-                                {
-                                /*
-                                <p className="card__price-only">Only</p>
-                                */
-                                }
-                                <p className="card__price-value">...</p>
-                        </div>
-                        <a href="https://guarded-tundra-34082.herokuapp.com/" target='_blank' rel="noreferrer" className="btn btn--white">View now!</a>
-                        </div>
-                        </div>
-                        </div>
-                </div>
-                </div>
-
-                <div className="u-center-text u-margin-top-huge">
-                <a href="#btn" className="btn btn--green">All other works</a>
-                </div>
                 </section>
 
 

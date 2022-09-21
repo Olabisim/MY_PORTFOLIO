@@ -922,7 +922,7 @@
         border:none
     }
     .feature-box{
-        background-color: rgb(255,255,255,0.1);
+        background-color: rgb(255,255,255,0.2);
         color: #fff;
         font-size:1.5rem;
         padding:2.5rem;
@@ -1227,7 +1227,7 @@
         padding: 1.5rem 2rem;
         border-radius: 3px;
         background: none;
-        border: 1px solid white !IMPORTANT;
+        border-bottom: 1px solid white !IMPORTANT;
         border: none;
         /* border-bottom: 3px solid transparent; */
         width: 90%;
@@ -1744,7 +1744,6 @@
         background: blue;
         background-size:cover;
         transform:skewY(-7deg);
-        margin-top:-10rem
     }
     .section-features>*{
         transform:skewY(7deg)
