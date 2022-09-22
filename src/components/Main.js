@@ -28,10 +28,10 @@ const Main = () => {
                                                 I am a driven software engineer with a passion for programming and solving difficult problems.
                                                 Technology is something with which I've always felt a deep connection. 
                                                 <p>
-                                                I have a can-do anything attitude and also really enjoy leaning new things, helping and motivating others
+                                                I have a can-do anything frame of mind and also really enjoy leaning new things, helping and motivating others
                                                 by pointing out ways they could improve.
                                                 I can create full stack apps from start to finish and really better at improving things.
-                                                I talk at length to showcase my point and also respect the perpective of others.
+                                                I talk at length to illustrate my point and also respect the perpective of others.
                                                 </p>
                                                 {/*
                                                 Developing creative solutions and thinking beyond standard approaches are my thing.
