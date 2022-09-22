@@ -22,16 +22,24 @@ const Main = () => {
 
                         <div className="row flex">
                                 <div>
-                                        <h3 className="heading-tertiary u-margin-bottom-small">who am i?</h3>
+                                        <h3 className="heading-tertiary u-margin-bottom-small style-about-head">who am i?</h3>
 
                                         <p className="paragraph">
                                                 I am a driven software engineer with a passion for programming and solving difficult problems.
                                                 Technology is something with which I've always felt a deep connection. 
+                                                <p>
+                                                I have a can-do anything attitude and also really enjoy leaning new things, helping and motivating others
+                                                by pointing out ways they could improve.
+                                                I can create full stack apps from start to finish and really better at improving things.
+                                                I talk at length to showcase my point and also respect the perpective of others.
+                                                </p>
+                                                {/*
                                                 Developing creative solutions and thinking beyond standard approaches are my thing.
                                                 I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
+                                                */}
                                         </p>
                                 
-                                        <h3 className="heading-tertiary u-margin-bottom-small">i'm A Fresh Computer Science Graduate</h3>
+                                        <h3 className="heading-tertiary u-margin-bottom-small style-about-head">i'm A Fresh Computer Science Graduate</h3>
                                         <p className="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
 
                                         <a href="/certify" className="btn-text">

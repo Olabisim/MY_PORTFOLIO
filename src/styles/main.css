@@ -1625,6 +1625,13 @@
         border-bottom-right-radius: 50px 50px;
         border-bottom-left-radius: 50px 50px;
     }
+    .style-about-head {
+        background: blue;
+        font-weight: 100 !important;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
     @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
         .header{
             -webkit-clip-path:polygon(0 0, 100% 0, 100% 75vh, 0 100%);
