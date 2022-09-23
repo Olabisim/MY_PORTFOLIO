@@ -33,3 +33,13 @@
         font-family: 'Raleway', sans-serif !important;
     
 }
+.projectcard a:hover {
+        margin-top: 15px;
+        background: none;
+        border: 1px solid blue;
+        color: blue;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-weight: 700;
+    
+}
