@@ -13,23 +13,24 @@ const Main = () => {
         <main>
         
                 <section className="section-about">
+                        {/*
                         <div className="u-center-text u-margin-bottom-big">
                         
                         <h2 className="heading-secondary">
                                 Passionate Software DEVELOPER
                         </h2>
                         </div>
-
+                        */}
+                        <Skills name='about me' skillsPage={true} />
                         <div className="row flex">
                                 <div>
-                                        <h3 className="heading-tertiary u-margin-bottom-small style-about-head">who am i?</h3>
+                                        <h3 className="heading-secondary">who am i?</h3>
 
                                         <p className="paragraph">
                                                 I am a driven software engineer with a passion for programming and solving difficult problems.
                                                 Technology is something with which I've always felt a deep connection. 
                                                 <p>
-                                                I have a can-do anything frame of mind and also really enjoy leaning new things, helping and motivating others
-                                                by pointing out ways they could improve.
+                                                I have a can-do anything frame of mind and also really enjoy leaning new things. I love helping and motivating others.
                                                 I can create full stack apps from start to finish and really better at improving things.
                                                 I talk at length to illustrate my point and also respect the perpective of others.
                                                 </p>
@@ -39,7 +40,7 @@ const Main = () => {
                                                 */}
                                         </p>
                                 
-                                        <h3 className="heading-tertiary u-margin-bottom-small style-about-head">i'm A Fresh Computer Science Graduate</h3>
+                                        <h3 className="heading-secondary">i'm A Fresh Computer Science Graduate</h3>
                                         <p className="paragraph">My goal is to join a team that is truly passionate about what they create and are proud to make the world a better place.</p>
 
                                         <a href="/certify" className="btn-text">
@@ -179,19 +180,19 @@ const Main = () => {
 
                         <div className="row">
                                 <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 
-                                        <span>React</span>
-                                        <span>Redux</span>
-                                        <span>React native navigation</span>
+                                        <li>React</li>
+                                        <li>Redux</li>
+                                        <li>React native navigation</li>
                                 </ProjectCard>
                                 <ProjectCard title={"E-COMMERCE"} link="https://github.com/Olabisim/MERN-ECOMMERCE" linkName="View github" > 
-                                        <span>React</span>
-                                        <span>Redux</span>
-                                        <span>Node</span>
+                                        <li>React</li>
+                                        <li>Redux</li>
+                                        <li>Node</li>
                                 </ProjectCard>
                                 <ProjectCard title={"COVID-19"} link="https://guarded-tundra-34082.herokuapp.com/" linkName="View Live" > 
-                                        <span>Sass</span>
-                                        <span>Less</span>
-                                        <span>Node</span>
+                                        <li>Sass</li>
+                                        <li>Less</li>
+                                        <li>Node</li>
                                 </ProjectCard>
                         </div>
 

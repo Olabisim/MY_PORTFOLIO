@@ -690,7 +690,7 @@
         transition:all .2s
     }
     body .heading-secondary{
-        font-size:3.5rem;
+        font-size:2.5rem;
         text-transform:uppercase;
         font-weight:700;
         display:inline-block;
@@ -1040,14 +1040,19 @@
         padding:3rem
     }
     .card__details ul{
-        list-style:none;
+        LIST-STYLE-TYPE: disclosure-closed;
         width:80%;
         margin:0 auto
     }
     .card__details ul li{
         text-align:center;
         font-size:1.5rem;
-        padding:1rem
+        padding:1rem;
+        letter-spacing: 1px;
+        color: black;
+    }
+    .card__details ul li::marker{
+        color: blue;
     }
     .card__details ul li:not(:last-child){
         border-bottom:1px solid #eee
@@ -1625,13 +1630,6 @@
         border-bottom-right-radius: 50px 50px;
         border-bottom-left-radius: 50px 50px;
     }
-    .style-about-head {
-        background: blue;
-        font-weight: 100 !important;
-        color: white;
-        padding: 10px;
-        border-radius: 10px;
-    }
     @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
         .header{
             -webkit-clip-path:polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -1738,7 +1736,7 @@
     .section-about{
         background-color:#fff;
         /* padding:25rem 0; */
-        margin-top:15vh
+        /* margin-top:15vh */
     }
     @media only screen and (max-width: 56.25em){
         .section-about{

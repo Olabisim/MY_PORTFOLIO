@@ -21,7 +21,15 @@
         display: block;
 }
 .projectcard a {
-        border: 1px solid blue !important;
         border-radius: 0 !important;
         margin-top: 25px;
+        background: blue;
+        width: 100%;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-weight: 300;
+        font-family: 'Raleway', sans-serif !important;
+    
 }
