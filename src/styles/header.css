@@ -39,11 +39,12 @@
         height:3.5rem
     }
     .header__text-box{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%, -50%);
-        text-align:center
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
 
@@ -154,7 +155,7 @@
     .resume_button {
         letter-spacing: 1px;
         z-index: 1000;
-        font-weight: 100;
+        font-weight: 600;
         word-spacing: 5px;
         background: none !important;
         border: 1px solid white !important;
@@ -175,7 +176,7 @@
     body .heading-primary--sub{
         display:block;
         font-size:3.2rem !important;
-        font-weight:100 !important;
+        font-weight:200 !important;
         letter-spacing:1rem !important;
         word-spacing: 2px;
         font-family: 'Raleway', sans-serif !important;
@@ -186,6 +187,7 @@
     }
     @media only screen and (max-width: 37.5em){
         body .heading-primary--sub{
-            letter-spacing:.5rem
+            letter-spacing:.5rem;
+            font-size:2.5rem !important;
         }
     }

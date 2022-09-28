@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/Card.css';
 import Navigation from '../components/Navigation';
+import Skills from '../components/Skills';
 
 
 const Certifications = () => {
@@ -10,12 +11,16 @@ const Certifications = () => {
                 <div>
                         <Header />
                         <Navigation />
-
+                        {
+                        /*
                         <h2 className="heading-secondary center-head">
                                 CERTIFICATIONS
-                        </h2>
+                        </h2>       
+                        */
+                        }
+                        <Skills name='proofs' skillsPage={true} />
                       
-                        <div className='certify_main'>
+                        <div className='certify_main responsive_flex'>
                         <div className="certify_card">
                                 <img src="../../cert2.jpg" alt="second_cert" />
                                 <div className="certify_text">

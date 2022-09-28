@@ -71,7 +71,7 @@ h1.text-skills {
 
 @media screen and (max-width: 768px){ 
    h1.text-skills {
-    font-size: 8rem;
+    font-size: 7rem;
   }
 }
 
@@ -81,7 +81,7 @@ h1.text-skills {
   }
   
    h1.text-skills {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 }
 

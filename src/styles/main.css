@@ -722,7 +722,7 @@
         text-transform:uppercase
     }
     body .paragraph{
-        font-size:1.6rem
+        font-size:1.8rem
     }
     body .paragraph:not(:last-child){
         margin-bottom:3rem
@@ -1676,13 +1676,6 @@
     .header__logo{
         height:3.5rem
     }
-    .header__text-box{
-        position:absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%, -50%);
-        text-align:center
-    }
     .footer{
         color:#fff;
         background-color:#333;
@@ -1844,6 +1837,9 @@
     @media only screen and (max-width: 56.25em){
         .booking__form{
             width:100%
+        }
+        .form{
+            width: 100%;
         }
     }
     

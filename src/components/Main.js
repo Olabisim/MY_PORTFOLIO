@@ -197,7 +197,7 @@ const Main = () => {
                         </div>
 
                         <div className="u-center-text u-margin-top-huge">
-                                <a href="/works" className="btn btn--green">All other works</a>
+                                <a href="/works" className="btn btn--green">All project works</a>
                         </div>
                 </section>
 
