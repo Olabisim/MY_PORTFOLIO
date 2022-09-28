@@ -22,7 +22,7 @@ const Main = () => {
                         </div>
                         */}
                         <Skills name='about me' skillsPage={true} />
-                        <div className="row flex">
+                        <div className="row flex responsive_flex">
                                 <div>
                                         <h3 className="heading-secondary">who am i?</h3>
 
@@ -50,7 +50,7 @@ const Main = () => {
                                         </a>
                                 </div>
                                 <div>
-                                        <div className="composition">
+                                        <div className="composition padding_pic_adjustment">
                                         
                                                 <div className="prof_pic">
                                                         <img src="../../DSC_1036.jpg" alt="pic" width={300}  />
@@ -63,7 +63,7 @@ const Main = () => {
                 </section>
         
                 <Skills name='articles' skillsPage={true} />
-                <div style={{display: 'flex', justifyContent: "space-evenly"}}>
+                <div style={{display: 'flex', justifyContent: "space-evenly"}} className="responsive_flex">
                 
                         <div class="cards">
                                 <Card date="April 19 2022" title="react-native" description=" setting react-native windows desktop app in 5 minutes" link="https://medium.com/@olabisiajoseh/setting-up-a-react-native-desktop-app-in-5-minutes-d06718838caa" />
@@ -78,9 +78,9 @@ const Main = () => {
                         
                         
                 <Skills name='skills' skillsPage={true} />
-                <section className="section-features">
+                <section className="section-features responsive_flex">
 
-                <div className="row">
+                <div className="row" >
                 <div className="col-1-of-4">
                         <div className="feature-box">
                         <span className="feature-box__icon lnr lnr-earth u-margin-bottom-small">
@@ -255,7 +255,7 @@ const Main = () => {
                 </div>
                 </section>
                 */}
-                <section className="section-booking">
+                <section className="section-booking responsive_flex">
                 <div className="row">
                 <div className="booking">
                         <div className="booking__form">
