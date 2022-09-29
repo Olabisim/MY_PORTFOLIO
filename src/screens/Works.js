@@ -39,10 +39,10 @@ export const Works = () => {
                                                 <li>PINATA</li>
                                                 <li>Metamask</li>
                                         </ProjectCard>
-                                        <ProjectCard title={"SIWES-APPLICATION-PORTAL"} link="hhttps://github.com/Olabisim/SIWES-APPLICATION-PORTAL" linkName="View github" > 
-                                                <li>PHP</li>
-                                                <li>Hack</li>
-                                                <li>Css</li>
+                                        <ProjectCard title={"LOGIN-FRAMER-MOTION"} link="https://login-with-framer-motion.netlify.app/" linkName="View github" > 
+                                                <li>react</li>
+                                                <li>framer-motion</li>
+                                                <li>tailwind</li>
                                         </ProjectCard>
                                 
                                 </div>
@@ -74,6 +74,11 @@ export const Works = () => {
                                                 <li>animation</li>
                                                 <li>javasript</li>
                                                 <li>svg</li>
+                                        </ProjectCard>
+                                        <ProjectCard title={"SIWES-APPLICATION-PORTAL"} link="https://github.com/Olabisim/SIWES-APPLICATION-PORTAL" linkName="View github" > 
+                                                <li>PHP</li>
+                                                <li>Hack</li>
+                                                <li>Css</li>
                                         </ProjectCard>
                                 
                                 </div>
