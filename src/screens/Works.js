@@ -39,7 +39,7 @@ export const Works = () => {
                                                 <li>PINATA</li>
                                                 <li>Metamask</li>
                                         </ProjectCard>
-                                        <ProjectCard title={"LOGIN-FRAMER-MOTION"} link="https://login-with-framer-motion.netlify.app/" linkName="View github" > 
+                                        <ProjectCard title={"LOGIN-FRAMER-MOTION"} link="https://login-with-framer-motion.netlify.app/" linkName="View live" > 
                                                 <li>react</li>
                                                 <li>framer-motion</li>
                                                 <li>tailwind</li>
