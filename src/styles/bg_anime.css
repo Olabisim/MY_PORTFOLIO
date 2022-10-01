@@ -15,8 +15,8 @@ ul.floatingBoxes li {
   height: 2rem;
   background-image: linear-gradient(
     to left,
-    rgb(201, 131, 3),
-    rgb(162, 27, 167)
+    rgb(244, 222, 203),
+    rgb(248, 238, 231)
   );
   opacity: 0.5;
   bottom: -80rem;

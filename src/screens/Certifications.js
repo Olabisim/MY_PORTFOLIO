@@ -1,25 +1,19 @@
 import React from 'react';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/Card.css';
 import Navigation from '../components/Navigation';
-import Skills from '../components/Skills';
+import { HeaderInn } from '../components/HeaderInn';
 
 
 const Certifications = () => {
         return (
                 <div>
-                        <Header />
+                        <HeaderInn purpose="certifications" />
                         <Navigation />
-                        {
-                        /*
-                        <h2 className="heading-secondary center-head">
-                                CERTIFICATIONS
-                        </h2>       
-                        */
-                        }
-                        <Skills name='proofs' skillsPage={true} />
-                      
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <div className='certify_main responsive_flex'>
                         <div className="certify_card">
                                 <img src="../../cert2.jpg" alt="second_cert" />
@@ -54,6 +48,10 @@ const Certifications = () => {
 
                         </div>
                         
+                        <br />
+                        <br />
+                        <br />
+                        <br />
 
                         <Footer />
                 </div>

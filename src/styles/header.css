@@ -12,6 +12,9 @@
         position:relative;
         background-attachment: fixed;
     }
+    .header-inn{
+        height:45vh !important;
+    }
     @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
         .header{
             -webkit-clip-path:polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -185,9 +188,15 @@
         -webkit-animation-duration:2.5s;
         animation-duration:2.5s
     }
+    body .header-inn .heading-primary--sub{
+        font-size:4.2rem !important;
+    }
     @media only screen and (max-width: 37.5em){
         body .heading-primary--sub{
             letter-spacing:.5rem;
             font-size:2.5rem !important;
+        }
+        body .header-inn .heading-primary--sub{
+            font-size:4.5rem !important;
         }
     }

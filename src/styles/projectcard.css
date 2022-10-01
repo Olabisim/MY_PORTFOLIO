@@ -23,7 +23,7 @@
 .projectcard a {
         border-radius: 0 !important;
         margin-top: 25px;
-        background: blue;
+        background: #94618e;
         width: 100%;
         color: white;
         text-align: center;
@@ -36,8 +36,8 @@
 .projectcard a:hover {
         margin-top: 15px;
         background: none;
-        border: 1px solid blue;
-        color: blue;
+        border: 1px solid #94618e;
+        color: #94618e;
         letter-spacing: 1px;
         word-spacing: 1px;
         font-weight: 700;

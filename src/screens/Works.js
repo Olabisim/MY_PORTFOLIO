@@ -1,15 +1,14 @@
-
-import Header from '../components/Header'
+import { HeaderInn } from '../components/HeaderInn'
 import Footer from '../components/Footer'
-import Skills from '../components/Skills'
 import { ProjectCard } from '../components/ProjectCard'
+import Navigation from '../components/Navigation'
 
 
 export const Works = () => {
         return (
                 <>
-                        <Header />
-                        <Skills name="WORKS" skillsPage={true} />
+                        <HeaderInn purpose="works" />
+                        <Navigation />
                         <div className='works'>
                                 <div className="row">
                                         <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 

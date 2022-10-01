@@ -309,7 +309,7 @@
     .lnr-undo:before{
         content:"\e860"
     }
-    .lnr-blueo:before{
+    .lnr-#49274ao:before{
         content:"\e861"
     }
     .lnr-sync:before{
@@ -627,11 +627,11 @@
         }
     }
     ::-moz-selection{
-        background-color:blue;
+        background-color:#49274a;
         color:#fff
     }
     ::selection{
-        background-color:blue;
+        background-color:#49274a;
         color:#fff
     }
     body{
@@ -679,29 +679,18 @@
         }
     }
     body .heading-secondary{
-        font-size:3.5rem;
-        text-transform:uppercase;
-        font-weight:700;
-        display:inline-block;
-        background-image:linear-gradient(to right, blue, #000);
-        -webkit-background-clip:text;
-        color:transparent;
-        letter-spacing:.2rem;
-        transition:all .2s
-    }
-    body .heading-secondary{
         font-size:2.5rem;
         text-transform:uppercase;
         font-weight:700;
         display:inline-block;
-        background-image:linear-gradient(to right, blue, #000);
+        background-image:linear-gradient(to right, #94618e, #000);
         -webkit-background-clip:text;
         color:transparent;
         letter-spacing:.2rem;
         transition:all .2s
     }
     #special_contact_h2{
-        background-image:linear-gradient(to right, blue, #fff);
+        background-image:linear-gradient(to right, #49274a, #fff);
     }
     @media only screen and (max-width: 56.25em){
         body .heading-secondary{
@@ -834,11 +823,11 @@
         background-color:#fff
     }
     .btn--green{
-        background-color:blue;
+        background-color:#49274a;
         color:#fff
     }
     .btn--green::after{
-        background-color:blue
+        background-color:#49274a
     }
     .btn::after{
         content:"";
@@ -860,15 +849,15 @@
     }
     .btn-text:link,.btn-text:visited{
         font-size:1.6rem;
-        color:blue;
+        color:#49274a;
         display:inline-block;
         text-decoration:none;
         padding:1.2rem 2rem;
-        border-bottom:0.1rem solid blue;
+        border-bottom:0.1rem solid #49274a;
         transition:all 0.2s
     }
     .btn-text:hover{
-        background-color:blue;
+        background-color:#49274a;
         color:#fff;
         box-shadow:0 1rem 2rem rgba(0,0,0,0.15);
         transform:translateY(-2px)
@@ -882,7 +871,7 @@
     }
     .composition__photo{
         width:55%;
-        border:3px solid blue;;
+        border:3px solid #49274a;;
         box-shadow:0 1.5rem 4rem rgba(0,0,0,0.4);
         border-radius:4px;
         position:absolute;
@@ -930,7 +919,7 @@
         }
     }
     .composition__photo:hover{
-        outline:1rem solid blue;
+        outline:1rem solid #49274a;
         border:none;
         transform:scale(1.1) translateY(-0.5rem);
         box-shadow:0 2.5rem 4rem rgba(0,0,0,0.5);
@@ -951,7 +940,7 @@
         transition:transform .3s;
     }
     .feature-box p{
-        background-color: blue;
+        background-color: #49274a;
         color: #fff;
         font-size:1.2rem;
         padding:2.5rem;
@@ -963,7 +952,7 @@
         font-size:6rem;
         margin-bottom:2.5rem;
         display:inline-block;
-        background-image:linear-gradient(to right, #7ed56f, blue);
+        background-image:linear-gradient(to right, #7ed56f, #49274a);
         -webkit-background-clip:text;
         color:transparent
     }
@@ -998,7 +987,7 @@
         background-image:linear-gradient(to right bottom, #ffb900, #ff7730)
     }
     .card__side--back-2{
-        background-image:linear-gradient(to right bottom, #7ed56f, blue)
+        background-image:linear-gradient(to right bottom, #7ed56f, #49274a)
     }
     .card__side--back-3{
         background-image:linear-gradient(to right bottom, #2998ff, #5643fa)
@@ -1023,7 +1012,7 @@
         background-blend-mode:color
     }
     .card__picture-2{
-        /* background-image:linear-gradient(to right bottom, #7ed56f, blue;),url(../img/nat-6.jpg); */
+        /* background-image:linear-gradient(to right bottom, #7ed56f, #49274a;),url(../img/nat-6.jpg); */
         background-blend-mode:color
     }
     .card__picture-3{
@@ -1071,7 +1060,7 @@
         color: black;
     }
     .card__details ul li::marker{
-        color: blue;
+        color: #49274a;
     }
     .card__details ul li:not(:last-child){
         border-bottom:1px solid #eee
@@ -1269,7 +1258,7 @@
     .form__input:focus{
         outline:none;
         box-shadow:0 1rem 2rem rgba(255,255,255,0.1);
-        border-bottom:3px solid blue
+        border-bottom:3px solid #49274a
     }
     .form__input:focus:invalid{
         border-bottom:3px solid #ff7730
@@ -1451,7 +1440,7 @@
         line-height:1
     }
     .popup__close:hover{
-        color:blue
+        color:#49274a
     }
     .row{
         max-width:114rem;
@@ -1536,7 +1525,7 @@
         position:fixed;
         top:6.5rem;
         right:6.5rem;
-        background-image: radial-gradient(closest-side, blue, #000);
+        background-image: radial-gradient(closest-side, #49274a, #000);
         z-index:100;
         transition:all 1s cubic-bezier(0.86, 0, 0.07, 1)
     }
@@ -1585,7 +1574,7 @@
     }
     .navigation__link:hover,.navigation__link:active{
         background-position:100%;
-        color:blue;;
+        color:#49274a;;
         transform:translateX(3rem)
     }
     .navigation__checkbox:checked ~ .navigation__background{
@@ -1637,7 +1626,7 @@
     .header{
         height:85vh;
         /* background-image:linear-gradient(to right bottom, rgba(28, 40, 52,0.0), rgba(28, 40, 52,0.0)),url(./img/hero-bg.png); */
-        background: blue;
+        background: #49274a;
         background-size:cover;
         background-position:top;
         position:relative;
@@ -1658,7 +1647,7 @@
     } */
     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (min-width: 125em){
         .header{
-            background: blue;
+            background: #49274a;
         }
     }
     @media only screen and (max-width: 75em){
@@ -1729,7 +1718,7 @@
         transition:all .2s
     }
     .footer__link:hover,.footer__link:active{
-        color:blue;
+        color:#49274a;
         box-shadow:0 1rem 2rem rgba(0,0,0,0.4);
         transform:rotate(5deg) scale(1.3)
     }
@@ -1759,7 +1748,7 @@
     .section-features{
         padding:20rem 0;
         /* background-image:linear-gradient(to right bottom, rgba(126,213,111,0.8), rgba(40,180,133,0.8)),url(../img/nat-4.jpg); */
-        background: blue;
+        background: #49274a;
         background-size:cover;
         transform:skewY(-7deg);
     }
@@ -1792,7 +1781,7 @@
     }
     .section-booking{
         padding:15rem 0;
-        background: blue;
+        background: #49274a;
     }
     @media only screen and (max-width: 56.25em){
         .section-booking{
@@ -1824,7 +1813,7 @@
         justify-content: space-between;;
     }
     .booking__form form button{
-        color: blue;
+        color: #49274a;
     }
     .form{
         width: 50%;
