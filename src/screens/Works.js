@@ -2,6 +2,7 @@ import { HeaderInn } from '../components/HeaderInn'
 import Footer from '../components/Footer'
 import { ProjectCard } from '../components/ProjectCard'
 import Navigation from '../components/Navigation'
+import { Link } from 'react-router-dom'
 
 
 export const Works = () => {
@@ -9,6 +10,11 @@ export const Works = () => {
                 <>
                         <HeaderInn purpose="works" />
                         <Navigation />
+                        <Link to="/">
+                                <div>
+                                        <h2 className='heading-secondary'> GO BACK</h2>
+                                </div>
+                        </Link>
                         <div className='works'>
                                 <div className="row">
                                         <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 

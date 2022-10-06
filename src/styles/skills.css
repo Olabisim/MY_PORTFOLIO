@@ -29,9 +29,9 @@ h1.text-skills {
   left: 0;
   right: 0;
   font-size: 12rem;
-  filter: opacity(0.4);
+  filter: opacity(0.6);
   text-align: center;
-  color: #49274a;
+  color: darkblue;
   text-transform: uppercase;
   letter-spacing: 15px;
 }

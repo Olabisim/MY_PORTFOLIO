@@ -5,6 +5,7 @@ import '../styles/main.css';
 import Card from '../components/Card';
 import { SvgContact } from "./SvgContact";
 import { ProjectCard } from "./ProjectCard";
+import { Link } from "react-router-dom";
 
 const Main = () => {
         return (
@@ -201,6 +202,16 @@ const Main = () => {
                         </div>
                 </section>
 
+                <section>
+                        <Link to="/others">
+                                <br />
+                                <br />
+                                <div className="otherWorks">
+                                        <h2>ALL OTHER WORKS</h2>
+                                        
+                                </div>
+                        </Link>
+                </section>
 
                 <Skills name='notify me' skillsPage={true} />
                 {/*
