@@ -20,13 +20,15 @@
   height: 50px;
   text-align: center;
   text-decoration: none;
-  color: #000;
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  box-shadow: 0 0 20px 10px rgb(0 0 0 / 5%);
   margin: 0 30px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
   transition: transform 0.5s;
+  border: 1px solid;
+
 }
 
 .social-links a .fab {
@@ -43,8 +45,8 @@
   height: 100%;
   top: -90px;
   left: 0;
-  background: #000;
-  background: linear-gradient(-45deg, #121330, #121330);
+  background: #fff;
+  background: linear-gradient(-45deg, #fff, #fff);
   position: absolute;
   transition: 0.5s;
 }
@@ -54,7 +56,7 @@
 }
 
 .social-links a:hover .fab {
-  color: #fff;
+  color: #000;
 }
 
 .social-links a:hover {

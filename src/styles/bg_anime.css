@@ -15,10 +15,10 @@ ul.floatingBoxes li {
   height: 2rem;
   background-image: linear-gradient(
     to left,
-    rgb(244, 222, 203),
-    rgb(248, 238, 231)
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
   );
-  opacity: 0.5;
+  opacity: 0.1;
   bottom: -80rem;
   animation: anim 25s linear infinite;
 }

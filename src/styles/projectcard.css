@@ -1,18 +1,25 @@
+.heading_title {
+        font-size: 18px;
+}
+
 .projectcard {
         box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 15%);
-        padding: 3em;
+        padding: 3em;    
+        background: rgba(255,255,255,0.1);
         /* background: blue; */
         /* color: white; */
 }
 .projectcard h2 {
-        font-size: 18px;
+        font-size: 17px;
         /* background-color: blue; */
-        /* color: white; */
+        color: rgba(255,255,255,0.7);
         padding: 5px;
         text-align: center;
         /* border-bottom: 1px solid white; */
         /* line-height: 3; */
         text-transform: uppercase;
+        background-image: none;
+        background-image: none;
 }
 .projectcard p {
         font-size: 18px;
@@ -21,23 +28,25 @@
         display: block;
 }
 .projectcard a {
-        border-radius: 0 !important;
+        border-radius: 50px !important;
         margin-top: 25px;
-        background: darkblue;
+        /* background: darkorange; */
         width: 100%;
-        color: white;
+        color: black;
+        font-weight: bolder;
         text-align: center;
         letter-spacing: 2px;
         word-spacing: 2px;
         font-weight: 300;
-        font-family: 'Raleway', sans-serif !important;
+        font-family: 'Raleway', sans-serif !important;    
+        font-size: 13px !important;
     
 }
 .projectcard a:hover {
         margin-top: 15px;
         background: none;
-        border: 1px solid darkblue;
-        color: darkblue;
+        border: 1px solid darkorange;
+        color: darkorange;
         letter-spacing: 1px;
         word-spacing: 1px;
         font-weight: 700;
