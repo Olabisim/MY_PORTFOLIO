@@ -211,6 +211,17 @@ const Main = () => {
                                         
                                 </div>
                         </Link>
+                        {/* https://www.softr.io/tools/svg-shape-generator */}
+                        <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">                    
+                                <defs>                         
+                                        <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            
+                                        <stop id="stop1" stop-color="rgba(0, 0, 139, 1)" offset="0%"></stop>                            
+                                        <stop id="stop2" stop-color="rgba(0, 0, 0, 1)" offset="100%"></stop>                        
+                                        </linearGradient>                    
+                                </defs>                
+                                <path fill="url(#sw-gradient)" d="M19.5,-35.7C24.4,-30.9,26.9,-24,30.5,-17.7C34.1,-11.4,38.7,-5.7,40.7,1.2C42.7,8,42.1,16,37.8,21C33.5,26.1,25.6,28.3,18.7,30.4C11.7,32.6,5.9,34.7,-0.5,35.5C-6.9,36.4,-13.7,36,-18.1,32.4C-22.4,28.8,-24.2,21.9,-26.9,15.9C-29.7,10,-33.4,5,-33.5,0C-33.5,-5.1,-29.9,-10.1,-26.9,-15.6C-23.8,-21.1,-21.4,-27,-17,-32.2C-12.7,-37.4,-6.3,-41.8,0.5,-42.6C7.3,-43.5,14.5,-40.6,19.5,-35.7Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style={{transition: "all 0.3s ease 0s;"}} stroke="url(#sw-gradient)">
+                                </path>              
+                        </svg>
                 </section>
 
                 <Skills name='notify me' skillsPage={true} />

@@ -1850,4 +1850,7 @@
         word-spacing: 5px;
         text-decoration: none;
     }
+    section > a {
+        text-decoration: none;
+    }
     /* otherworks end */
