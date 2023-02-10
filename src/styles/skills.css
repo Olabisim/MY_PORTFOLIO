@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Genos:wght@100&family=Titillium+Web:wght@200&display=swap");
 
 .skill_conatiner {
-        background: #fff;
+        background: #000;
   /* background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f); */
   /* overflow-x:hidden; */
   height: 450px;
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   transform: translateY(50%);
-  background: #fff;
+  /* background: #fff; */
 }
 
 h1.text-skills {
@@ -29,9 +29,9 @@ h1.text-skills {
   left: 0;
   right: 0;
   font-size: 12rem;
-  filter: opacity(0.6);
+  filter: opacity(0.5);
   text-align: center;
-  color: darkblue;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 15px;
 }
