@@ -179,7 +179,7 @@
     body .heading-primary--sub{
         display:block;
         font-size:3.2rem !important;
-        font-weight:200 !important;
+        font-weight:200;
         letter-spacing:1rem !important;
         word-spacing: 2px;
         font-family: 'Raleway', sans-serif !important;
@@ -203,5 +203,5 @@
     
     .styling_head {
         color: darkorange;
-        font-weight: 600 !important;
+        font-weight: 600;
     }

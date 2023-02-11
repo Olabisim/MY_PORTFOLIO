@@ -1862,3 +1862,6 @@
         color: darkorange;
         border: 1px solid darkorange !important;
     }
+    .btn-black {
+        color: black !important;
+    }
