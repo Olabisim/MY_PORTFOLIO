@@ -30,11 +30,11 @@ const Main = () => {
                                         <p className="paragraph">
                                                 I am a driven software engineer with a passion for programming and solving difficult problems.
                                                 Technology is something with which I've always felt a deep connection. 
-                                                <p>
+                                                <br />
                                                 I have a can-do anything frame of mind and also really enjoy leaning new things. I love helping and motivating others.
                                                 I can create full stack apps from start to finish and really better at improving things.
                                                 I talk at length to illustrate my point and also respect the perpective of others.
-                                                </p>
+                                                
                                                 {/*
                                                 Developing creative solutions and thinking beyond standard approaches are my thing.
                                                 I have high aspirations and am constantly striving to outdo myself with every challenge I undertake.
@@ -66,7 +66,7 @@ const Main = () => {
                 <Skills name='articles' skillsPage={true} />
                 <div style={{display: 'flex', justifyContent: "space-evenly"}} className="responsive_flex">
                 
-                        <div class="cards">
+                        <div className="cards">
                                 <Card date="April 19 2022" title="react-native" description=" setting react-native windows desktop app in 5 minutes" link="https://medium.com/@olabisiajoseh/setting-up-a-react-native-desktop-app-in-5-minutes-d06718838caa" />
                                 <Card date="August 31 2022" title="react" description="Responsive React NavBar with useRef hook" link="https://medium.com/@olabisiajoseh/responsive-react-navbar-with-useref-hook-923b88b63ff8" />
                                 <Card date="May 24 2022" title="react-native" description=" New Wave Of Writing React-Native" link="https://medium.com/@olabisiajoseh/new-wave-of-writing-react-native-322a2613baf4" />
@@ -320,7 +320,7 @@ const Main = () => {
                                         </div>
                                         </div>
                                         <div className="form__group">
-                                        <button className="btn">Next step &rarr;</button>
+                                        <button className="btn btn-black">Next step &rarr;</button>
                                         </div>
                                 </form>
 
