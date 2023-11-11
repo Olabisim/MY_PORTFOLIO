@@ -17,11 +17,16 @@ export const Works = () => {
                         </Link>
                         <div className='works'>
                                 <div className="row">
-                                        <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 
+                                        <ProjectCard title={"PAYSLICE"} link="https://dev.payslices.com/" linkName="View github"> 
+                                                <li>React</li>
+                                                <li>Redux</li>
+                                                <li>Redux Saga</li>
+                                        </ProjectCard>
+                                        {/* <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 
                                                 <li>React</li>
                                                 <li>Redux</li>
                                                 <li>React native navigation</li>
-                                        </ProjectCard>
+                                        </ProjectCard> */}
                                         <ProjectCard title={"E-COMMERCE"} link="https://github.com/Olabisim/MERN-ECOMMERCE" linkName="View github" > 
                                                 <li>React</li>
                                                 <li>Redux</li>

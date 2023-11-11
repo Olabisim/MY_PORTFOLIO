@@ -180,21 +180,31 @@ const Main = () => {
                         <br />
 
                         <div className="row">
-                                <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 
+                                <ProjectCard title={"PAYSLICE"} link="https://dev.payslices.com/" linkName="View live"> 
+                                        <li>React</li>
+                                        <li>Redux</li>
+                                        <li>Redux Saga</li>
+                                </ProjectCard>
+                                {/* <ProjectCard title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 
                                         <li>React</li>
                                         <li>Redux</li>
                                         <li>React native navigation</li>
+                                </ProjectCard> */}
+                                <ProjectCard title={"Geoplex"} link="https://geoplex-web.vercel.app/" linkName="View Live" > 
+                                        <li>Next</li>
+                                        <li>Framer</li>
+                                        <li>React</li>
                                 </ProjectCard>
                                 <ProjectCard title={"E-COMMERCE"} link="https://github.com/Olabisim/MERN-ECOMMERCE" linkName="View github" > 
                                         <li>React</li>
                                         <li>Redux</li>
                                         <li>Node</li>
                                 </ProjectCard>
-                                <ProjectCard title={"COVID-19"} link="https://guarded-tundra-34082.herokuapp.com/" linkName="View Live" > 
+                                {/* <ProjectCard title={"COVID-19"} link="https://guarded-tundra-34082.herokuapp.com/" linkName="View Live" > 
                                         <li>Sass</li>
                                         <li>Less</li>
                                         <li>Node</li>
-                                </ProjectCard>
+                                </ProjectCard> */}
                         </div>
 
                         <div className="u-center-text u-margin-top-huge">
