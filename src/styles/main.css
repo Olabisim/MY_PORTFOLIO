@@ -1526,7 +1526,7 @@
         position:fixed;
         top:6.5rem;
         right:6.5rem;
-        background-image: radial-gradient(closest-side, darkorange, #000);
+        background-image: radial-gradient(closest-side, #000, #000);
         z-index:100;
         transition:all 1s cubic-bezier(0.86, 0, 0.07, 1)
     }
@@ -1575,7 +1575,7 @@
     }
     .navigation__link:hover,.navigation__link:active{
         background-position:100%;
-        color:darkorange;;
+        color:#000;;
         transform:translateX(3rem)
     }
     .navigation__checkbox:checked ~ .navigation__background{

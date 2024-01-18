@@ -5,6 +5,9 @@
   /* background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f); */
   /* overflow-x:hidden; */
   height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 600px) {
   .skill_conatiner {
