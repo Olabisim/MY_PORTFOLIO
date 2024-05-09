@@ -1,6 +1,6 @@
 import { HeaderInn } from '../components/HeaderInn'
 import Footer from '../components/Footer'
-import { ProjectCard, ProjectCard2 } from '../components/ProjectCard'
+import { ProjectCard2 } from '../components/ProjectCard'
 import Navigation from '../components/Navigation'
 import { Link } from 'react-router-dom'
 import Contact from '../components/Contact'

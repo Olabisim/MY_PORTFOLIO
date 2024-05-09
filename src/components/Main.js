@@ -3,7 +3,6 @@ import Skills from "./Skills";
 import '../styles/main.css';
 
 import Card from '../components/Card';
-import { SvgContact } from "./SvgContact";
 import { ProjectCard } from "./ProjectCard";
 import { Link } from "react-router-dom";
 import Contact from "./Contact";
