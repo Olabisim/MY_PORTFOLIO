@@ -30,7 +30,7 @@
 .projectcard a {
         border-radius: 50px !important;
         margin-top: 25px;
-        /* background: darkorange; */
+        /* background: cyan; */
         width: 100%;
         color: black;
         font-weight: bolder;
@@ -45,8 +45,8 @@
 .projectcard a:hover {
         margin-top: 15px;
         background: none;
-        border: 1px solid darkorange;
-        color: darkorange;
+        border: 1px solid cyan;
+        color: cyan;
         letter-spacing: 1px;
         word-spacing: 1px;
         font-weight: 700;
