@@ -36,10 +36,15 @@ export const Works = () => {
                                                 <li>Node</li>
                                         </ProjectCard2>
                                         
-                                        <ProjectCard2 title={"Aza Oil"} link="https://www.azatrailers.ng/" linkName="View github"> 
+                                        <ProjectCard2 title={"Aza Oil"} link="https://www.azatrailers.ng/" linkName="View live"> 
                                                 <li>React</li>
                                                 <li>Redux</li>
                                                 <li>Nodejs</li>
+                                        </ProjectCard2>
+                                        <ProjectCard2 title={"Vintage"} link="https://vintageatlanticproperties.com/" linkName="View live"> 
+                                                <li>React</li>
+                                                <li>Nextjs</li>
+                                                <li>Tailwind</li>
                                         </ProjectCard2>
                                         
                                         {/* <ProjectCard2 title={"YOUTUBE CLONE"} link="https://github.com/Olabisim/youtube_clone" linkName="View github"> 
