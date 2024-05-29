@@ -33,7 +33,7 @@ const Header = () => {
                                 <span className="heading-primary--sub styling_head" style={{fontWeight: '900'}}>MERN STACK DEVELOPER</span>
                         </h1>
 
-                        <a href="https://drive.google.com/file/d/14r7piHYNsRgi3QBS6WtVTsN99b4NK12u/view?usp=sharing" target="_blank" rel="noreferrer" className="resume_button btn btn--animated ">DOWNLOAD MY RESUME</a>
+                        <a href="https://docs.google.com/document/d/1clw57c6JZ_YDnjgr3vfdJ4Jji_Ubbm-FTtBPvrw_fg0/edit?usp=sharing" target="_blank" rel="noreferrer" className="resume_button btn btn--animated ">DOWNLOAD MY RESUME</a>
                 </div>
         </header>
 
