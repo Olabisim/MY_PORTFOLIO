@@ -30,7 +30,7 @@ const Header = () => {
 
                         <h1 className="heading-primary">
                                 <span className="heading-primary--main">✨olabisi</span>
-                                <span className="heading-primary--sub styling_head" style={{fontWeight: '900'}}>MERN STACK DEVELOPER</span>
+                                <span className="heading-primary--sub styling_head" style={{fontWeight: '900'}}>REACT/REACT-NATIVE DEVELOPER</span>
                         </h1>
 
                         <a href="https://docs.google.com/document/d/1clw57c6JZ_YDnjgr3vfdJ4Jji_Ubbm-FTtBPvrw_fg0/edit?usp=sharing" target="_blank" rel="noreferrer" className="resume_button btn btn--animated ">DOWNLOAD MY RESUME</a>
